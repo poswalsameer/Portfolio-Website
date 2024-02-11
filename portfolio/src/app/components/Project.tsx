@@ -1,0 +1,11 @@
+import React from 'react'
+
+function Project() {
+  return (
+    <>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta perspiciatis blanditiis sequi ipsam doloribus voluptates itaque facere vel! Delectus quam enim, consequatur numquam animi, ducimus maiores reprehenderit doloribus perferendis deleniti quod cumque laudantium eius necessitatibus mollitia pariatur modi libero minima. Nam perspiciatis asperiores doloribus placeat numquam laudantium cupiditate labore animi iusto! Vero aut, facere voluptatum ad beatae, vitae, recusandae quia dolorum quos ab quaerat numquam. Sint, ea commodi cum facere soluta eligendi culpa nemo quo saepe ut dolorem? Doloribus neque hic alias vero at culpa quisquam ut suscipit magnam, perferendis, eum assumenda debitis magni iure! Placeat animi ipsa dolorum cumque omnis voluptatem reiciendis accusantium. Voluptates, neque impedit minus libero qui nesciunt, a modi eos aliquid maiores sint deserunt dolorem? Minus quae debitis rerum quo commodi, omnis a nisi aliquam quasi, quam est, atque odio ut. Ipsam explicabo similique magni neque! Quos eum blanditiis est alias rerum qui id ipsum laborum aspernatur reprehenderit, delectus aliquam impedit, quisquam pariatur, quibusdam quo? Ea tempore laborum quibusdam ipsam perferendis iure dicta vitae nisi. Magnam iste dolores ducimus sunt sed molestiae delectus voluptatum, ipsa suscipit facilis rerum nam, dicta, culpa provident eaque. Cumque neque veniam quos a. Error maiores facere sit ab, quod, similique eligendi iusto odio quas laboriosam perspiciatis voluptatum veniam quam corrupti ratione! Odit asperiores quae enim inventore vitae harum. Praesentium libero in nesciunt magnam illum sit! Similique voluptatibus repellendus dicta perferendis a, numquam voluptas beatae? Ex rerum quae tempora officiis animi ducimus sequi voluptates commodi voluptas ut. Aliquid sed numquam exercitationem aliquam cumque vero. Suscipit tempore et amet laudantium voluptatem? Mollitia perspiciatis, asperiores veniam temporibus maxime, at, totam consequuntur numquam qui veritatis aut impedit labore enim incidunt optio. Voluptatum ad, omnis dolorum quas error facere iste amet repellendus harum sequi quasi magnam impedit et perspiciatis. Sed aut odio facilis impedit, doloremque assumenda.
+    </>
+  )
+}
+
+export default Project
