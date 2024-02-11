@@ -44,7 +44,7 @@ function Hero() {
                 <a href="https://www.linkedin.com/in/sameerposwal/" target="_blank"><img src="linkedin.png" alt="" className='bg-yellow-100 p-2 rounded-xl h-14 w-14 border-2 border-yellow-900 hover:bg-yellow-200 hover:border-2 hover:border-yellow-900 mx-8'/></a>
             </div>
 
-            <button className='h-16 w-44 font-bold text-purple-950 bg-purple-400 rounded-xl mx-14 my-5 border-[3px] border-purple-950 hover:bg-purple-950 hover:text-purple-400 hover:border-[3px] hover:border-purple-400 '>Download Resume</button>
+            <button className='h-14 w-44 font-bold text-purple-950 bg-purple-400 rounded-xl mx-14 my-5 border-[3px] border-purple-950 hover:bg-purple-950 hover:text-purple-400 hover:border-[3px] hover:border-purple-400 '>Download Resume</button>
         </div>
 
         <img src="meInSuit.jpg" alt="" className='h-[30rem] w-80 rounded-xl my-10 mr-36 drop-shadow-[5px_5px_14px_rgba(192,132,252,0.75)]' />
