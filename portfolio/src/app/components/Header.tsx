@@ -4,12 +4,12 @@ function Header() {
   return (
     <>
 
-      <div className=' h-16 flex flex-row justify-center items-center bg-purple-600 ' >
+      <div className=' h-16 flex flex-row justify-center items-center bg-purple-500 ' >
 
-        <p className='mx-14 text-xl font-bold text-black' >&lt;Home /&gt;</p>
-        <p className='mx-14 text-xl font-bold text-black' >&lt;Skills I Possess /&gt;</p>
-        <p className='mx-14 text-xl font-bold text-black'>&lt;Projects /&gt;</p>
-        <p className='mx-14 text-xl font-bold text-black'>&lt;Contact Me /&gt;</p>
+        <p className='mx-14 text-xl font-bold text-purple-950' >&lt;Home /&gt;</p>
+        <p className='mx-14 text-xl font-bold text-purple-950' >&lt;Skills I Possess /&gt;</p>
+        <p className='mx-14 text-xl font-bold text-purple-950'>&lt;Projects /&gt;</p>
+        <p className='mx-14 text-xl font-bold text-purple-950'>&lt;Contact Me /&gt;</p>
 
 
       </div>
