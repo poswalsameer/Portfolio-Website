@@ -35,17 +35,19 @@ function Hero() {
             </div>
 
             <div className='flex flex-row mx-14 my-5' >
-                <a href="https://github.com/poswalsameer" ><img src="github.png" alt="" className='bg-purple-300 p-2 rounded-xl h-14 w-14 border-2 border-purple-900 hover:bg-purple-900 hover:border-2 hover:border-purple-300 '/></a> 
+                <a href="https://github.com/poswalsameer" target="_blank"><img src="github.png" alt="" className='bg-purple-300 p-2 rounded-xl h-14 w-14 border-2 border-purple-900 hover:bg-purple-400 hover:border-2 hover:border-purple-900 '/></a> 
 
-                <a href="https://leetcode.com/poswalsameer/"><img src="leetcode.png" alt="" className='bg-yellow-100 p-2 rounded-xl h-14 w-14 border-2 border-yellow-900 hover:bg-yellow-900 hover:border-2 hover:border-yellow-100 mx-8'/></a>
+                <a href="https://leetcode.com/poswalsameer/" target="_blank"><img src="leetcode.png" alt="" className='bg-yellow-100 p-2 rounded-xl h-14 w-14 border-2 border-yellow-900 hover:bg-yellow-200 hover:border-2 hover:border-yellow-900 mx-8'/></a>
 
-                <a href="https://twitter.com/sameerposwal03"><img src="twitter.png" alt="" className='bg-purple-300 p-2 rounded-xl h-14 w-14 border-2 border-purple-900 hover:bg-purple-900 hover:border-2 hover:border-purple-300'/></a>
+                <a href="https://twitter.com/sameerposwal03" target="_blank"><img src="twitter.png" alt="" className='bg-purple-300 p-2 rounded-xl h-14 w-14 border-2 border-purple-900 hover:bg-purple-400 hover:border-2 hover:border-purple-900'/></a>
+
+                <a href="https://www.linkedin.com/in/sameerposwal/" target="_blank"><img src="linkedin.png" alt="" className='bg-yellow-100 p-2 rounded-xl h-14 w-14 border-2 border-yellow-900 hover:bg-yellow-200 hover:border-2 hover:border-yellow-900 mx-8'/></a>
             </div>
 
             <button className='h-16 w-44 font-bold text-purple-950 bg-purple-400 rounded-xl mx-14 my-5 border-[3px] border-purple-950 hover:bg-purple-950 hover:text-purple-400 hover:border-[3px] hover:border-purple-400 '>Download Resume</button>
         </div>
 
-        <img src="meInSuit.jpg" alt="" className='h-[30rem] w-80 rounded-xl mr-36 drop-shadow-[5px_5px_14px_rgba(192,132,252,0.75)]' />
+        <img src="meInSuit.jpg" alt="" className='h-[30rem] w-80 rounded-xl my-10 mr-36 drop-shadow-[5px_5px_14px_rgba(192,132,252,0.75)]' />
 
 
     </div>
