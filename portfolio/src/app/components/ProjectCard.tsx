@@ -9,7 +9,7 @@ function ProjectCard(props: {
 
         <div><img src={props.projectImage} alt="" className='h-72 w-[24rem] rounded-t-xl' /></div>
         
-        <div className='p-6 flex flex-col justify-center items-center bg-purple-500 h-56 w-[24rem] rounded-b-xl' >
+        <div className='p-6 flex flex-col justify-center items-center   bg-purple-500 h-56 w-[24rem] rounded-b-xl' >
 
             <h1 className='my-2 text-black text-3xl font-extrabold'>{props.projectName}</h1>
 
