@@ -7,9 +7,9 @@ function Project() {
 
       <h1 className='text-6xl font-bold mx-20 my-14' >&lt;PROJECTS /&gt;</h1>
       
-      <div className='grid grid-cols-2 place-content-center place-items-center'>
+      <div className='grid grid-cols-3 place-content-center place-items-center'>
 
-        <div className='m-10'> 
+        <div className='ml-10 mr-5'> 
 
           <ProjectCard projectImage="tunifyImage.jpg" projectName="Tunify Music" techUsed="HTML, Tailwind CSS, JavaScript, Google Firebase, NodeJS" /> 
 
@@ -21,13 +21,13 @@ function Project() {
 
         </div>
 
-        <div className='m-10'>
+        <div className='mr-10 ml-5'>
 
           <ProjectCard projectImage='nitroDashImage.jpg' projectName='Nitro Dash' techUsed='Unity Game Engine, C#' />
 
         </div>
 
-        <div className='m-10'>
+        <div className='ml-10 mr-5'>
 
           <ProjectCard projectImage='flyingNemo.png' projectName='Flying Nemo' techUsed='Unity Game Engine, C#' />
           
@@ -39,7 +39,7 @@ function Project() {
           
         </div>
 
-        <div className='m-10'>
+        <div className='mr-10 ml-5'>
 
           <ProjectCard projectImage='tictactoe.jpg' projectName='Tic Tac Toe' techUsed='HTML, Tailwind CSS JavaScript' />
           

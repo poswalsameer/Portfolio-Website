@@ -47,7 +47,7 @@ function Hero() {
             <button className='h-14 w-44 font-bold text-purple-950 bg-purple-400 rounded-xl mx-14 my-5 border-[3px] border-purple-950 hover:bg-purple-950 hover:text-purple-400 hover:border-[3px] hover:border-purple-400 '>Download Resume</button>
         </div>
 
-        <img src="meInSuit.jpg" alt="" className='h-[30rem] w-80 rounded-xl my-10 mr-36 drop-shadow-[5px_5px_14px_rgba(192,132,252,0.75)]' />
+        <img src="meInSuit.jpg" alt="" id='imageDiv' className='h-[30rem] w-80 rounded-xl my-10 mr-36' />
 
 
     </div>
