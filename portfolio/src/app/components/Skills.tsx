@@ -5,7 +5,7 @@ function Skills() {
   return (
 
     <>
-        <h1 className='text-6xl font-bold mx-20 my-14' >&lt;TECHNOLOGIES I KNOW /&gt;</h1>
+        <h1 className='text-6xl font-bold mx-10 mt-40 mb-10 text-[#fefae0]' >&lt;TECHNOLOGIES I KNOW /&gt;</h1>
 
         {/* <div className='grid grid-cols-6 place-content-center place-items-center'> */}
 
@@ -41,7 +41,7 @@ function Skills() {
 
             
 
-            <div className='grid grid-cols-6 place-content-center place-items-center'>
+            <div className='grid grid-cols-6 place-content-center place-items-center' id='secondRow'>
 
                 <div className='m-3' >
                     <SkillCard image='react.png'/>
@@ -72,7 +72,7 @@ function Skills() {
 
             
 
-            <div className='grid grid-cols-6 place-content-center place-items-center'>
+            <div className='grid grid-cols-6 place-content-center place-items-center' id='thirdRow'>
 
             <div className='m-3' >
                 <SkillCard image='nodejs.png'/>
