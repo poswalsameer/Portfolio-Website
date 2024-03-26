@@ -35,3 +35,23 @@ body {
 /* #imageDiv{
   box-shadow: 0 3px 6px 0 rgba(231, 226, 226, 0.354), 0 6px 20px 0 rgba(231, 226, 226, 0.354);
 } */
+
+
+
+/* #firstRow{
+  overflow-x: hidden;
+    white-space: nowrap;
+  animation: scroll linear infinite;
+}
+
+@keyframes scroll {
+
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+
+} */

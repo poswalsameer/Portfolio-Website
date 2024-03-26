@@ -13,8 +13,9 @@ export default function Home() {
         
         <Header />
         <Hero />
-        <Project />
         <Skills />
+        <Project />
+        
         
     </>
 
