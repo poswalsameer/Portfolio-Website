@@ -6,3 +6,40 @@
 body {
     background: rgb(2 6 23);
 }
+
+/* #firstRow{
+    animation: scroll 15s linear infinite;
+}
+
+#firstRow:hover{
+    animation-play-state: paused;
+}
+
+@keyframes scroll{
+
+    0%{
+        transform: translateX(0);
+    }
+
+    100%{
+        transform: translateX(-100%);
+    }
+
+}
+
+#secondRow{
+    animation: scrollTwo 10s linear infinite;
+}
+
+#secondRow:hover{
+    animation-play-state: paused;
+}
+
+@keyframes scrollTwo{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+} */

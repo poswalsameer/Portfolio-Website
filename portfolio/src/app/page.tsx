@@ -11,10 +11,14 @@ export default function Home() {
       
     <>
         
+        <div className="h-screen w-screen">
+
         <Header />
         <Hero />
         <Skills />
         <Project />
+
+        </div>
         
         
     </>

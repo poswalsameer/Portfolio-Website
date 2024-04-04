@@ -29,19 +29,37 @@ function Project() {
 
         <div className='ml-10 mr-5'>
 
-          <ProjectCard projectImage='flyingNemo.png' projectName='Flying Nemo' techUsed='Unity Game Engine, C#' />
+          <ProjectCard projectImage='flyingNemo.png' projectName='Digital Ink' techUsed='ReactJS, HTML Canvas, Tailwind CSS' />
           
         </div>
 
         <div className='m-10'>
 
-          <ProjectCard projectImage='pass.jpg' projectName='KeyForge' techUsed=' JavaScript, ReactJS, Tailwind CSS, JSX' />
+          <ProjectCard projectImage='flyingNemo.png' projectName='TypeMaster' techUsed='ReactJS, Tailwind CSS, NPM Packages' />
           
         </div>
 
         <div className='mr-10 ml-5'>
 
+          <ProjectCard projectImage='flyingNemo.png' projectName='Flying Nemo' techUsed='Unity Game Engine, C#' />
+          
+        </div>
+
+        <div className='ml-10 mr-5'>
+
+          <ProjectCard projectImage='pass.jpg' projectName='KeyForge' techUsed=' JavaScript, ReactJS, Tailwind CSS, JSX' />
+          
+        </div>
+
+        <div className='m-10'>
+
           <ProjectCard projectImage='tictactoe.jpg' projectName='Tic Tac Toe' techUsed='HTML, Tailwind CSS JavaScript' />
+          
+        </div>
+
+        <div className='mr-10 ml-5'>
+
+          <ProjectCard projectImage='flyingNemo.png' projectName='Encuentro 2k24' techUsed='HTML, Tailwind CSS, JavaScript, Google Sheets' />
           
         </div>
 
