@@ -11,37 +11,37 @@ function Project() {
 
         <div className='ml-10 mr-5'> 
 
-          <ProjectCard projectImage="tunifyImage.jpg" projectName="Tunify Music" techUsed="HTML, Tailwind CSS, JavaScript, Google Firebase, NodeJS" /> 
+          <ProjectCard projectImage="music.jpg" projectName="Tunify Music" techUsed="HTML, Tailwind CSS, JavaScript, Google Firebase, NodeJS" /> 
 
         </div>
 
         <div className='m-10'>
 
-          <ProjectCard projectImage='noteSync.png' projectName='Note-Sync' techUsed='JSX, ReactJS, Redux, Tailwind CSS, JavaScript Local Storage' />
+          <ProjectCard projectImage='notesync.jpg' projectName='Note-Sync' techUsed='JSX, ReactJS, Redux, Tailwind CSS, JavaScript Local Storage' />
 
         </div>
 
         <div className='mr-10 ml-5'>
 
-          <ProjectCard projectImage='nitroDashImage.jpg' projectName='Nitro Dash' techUsed='Unity Game Engine, C#' />
+          <ProjectCard projectImage='nitro.jpg' projectName='Nitro Dash' techUsed='Unity Game Engine, C#' />
 
         </div>
 
         <div className='ml-10 mr-5'>
 
-          <ProjectCard projectImage='flyingNemo.png' projectName='Digital Ink' techUsed='ReactJS, HTML Canvas, Tailwind CSS' />
+          <ProjectCard projectImage='sign.jpg' projectName='Digital Ink' techUsed='ReactJS, HTML Canvas, Tailwind CSS' />
           
         </div>
 
         <div className='m-10'>
 
-          <ProjectCard projectImage='flyingNemo.png' projectName='TypeMaster' techUsed='ReactJS, Tailwind CSS, NPM Packages' />
+          <ProjectCard projectImage='typing.jpg' projectName='TypeMaster' techUsed='ReactJS, Tailwind CSS, NPM Packages' />
           
         </div>
 
         <div className='mr-10 ml-5'>
 
-          <ProjectCard projectImage='flyingNemo.png' projectName='Flying Nemo' techUsed='Unity Game Engine, C#' />
+          <ProjectCard projectImage='nemo.jpg' projectName='Flying Nemo' techUsed='Unity Game Engine, C#' />
           
         </div>
 
@@ -53,13 +53,13 @@ function Project() {
 
         <div className='m-10'>
 
-          <ProjectCard projectImage='tictactoe.jpg' projectName='Tic Tac Toe' techUsed='HTML, Tailwind CSS JavaScript' />
+          <ProjectCard projectImage='tic.jpg' projectName='Tic Tac Toe' techUsed='HTML, Tailwind CSS JavaScript' />
           
         </div>
 
         <div className='mr-10 ml-5'>
 
-          <ProjectCard projectImage='flyingNemo.png' projectName='Encuentro 2k24' techUsed='HTML, Tailwind CSS, JavaScript, Google Sheets' />
+          <ProjectCard projectImage='encuentro.png' projectName='Encuentro 2k24' techUsed='HTML, Tailwind CSS, JavaScript, Google Sheets' />
           
         </div>
 
