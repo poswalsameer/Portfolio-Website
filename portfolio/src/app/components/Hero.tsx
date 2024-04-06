@@ -30,7 +30,7 @@ function Hero() {
             </h1>
 
             <div className='flex flex-row text-5xl text-[#c6ac8f] font-semibold my-3 ' >
-                <h1 className='absolute -ml-[14%] text-[#c6ac8f]'><TextTransition springConfig={presets.wobbly}>{texts[index % texts.length]}</TextTransition></h1>
+                <h1 className='absolute -ml-[15%] text-[#c6ac8f]'><TextTransition springConfig={presets.wobbly}>{texts[index % texts.length]}</TextTransition></h1>
                 <h1 className='absolute ml-[0%]'>Developer</h1>
             </div>
 

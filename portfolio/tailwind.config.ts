@@ -16,6 +16,9 @@ const config: Config = {
       animation: {
         scale: 'scale 1s ease-in-out infinite',
       },
+      fontFamily: {
+        poppins: ['poppins', 'sans-serif'],
+      },
     },
   },
   plugins: [],
