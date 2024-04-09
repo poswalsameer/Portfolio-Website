@@ -25,26 +25,26 @@ function Hero() {
         
         <div className=' flex flex-col justify-center items-center ' >
 
-            <h1 className='text-8xl text-[#eae0d5] font-extrabold my-6'>
-                <span className='text-[#eae0d5]'>SAMEER</span> POSWAL
+            <h1 className='text-8xl text-[#faf5f0] font-extrabold my-6'>
+                <span className='text-[#faf5f0]'>SAMEER</span> POSWAL
             </h1>
 
-            <div className='flex flex-row text-5xl text-[#c6ac8f] font-semibold my-3 ' >
-                <h1 className='absolute -ml-[15%] text-[#c6ac8f]'><TextTransition springConfig={presets.wobbly}>{texts[index % texts.length]}</TextTransition></h1>
+            <div className='flex flex-row text-5xl text-[#c3a995] font-semibold my-3 ' >
+                <h1 className='absolute -ml-[15%] text-[#c3a995]'><TextTransition springConfig={presets.wobbly}>{texts[index % texts.length]}</TextTransition></h1>
                 <h1 className='absolute ml-[0%]'>Developer</h1>
             </div>
 
             <div className='flex flex-row mt-20' >
-                <a href="https://github.com/poswalsameer" target="_blank"><img src="github.png" alt="" className='bg-[#fefae0] p-2 rounded-xl h-12 w-12 border-2 border-[#644c2f] transition-all ease-in delay-75 hover:scale-110'/></a> 
+                <a href="https://github.com/poswalsameer" target="_blank"><img src="github.png" alt="" className='bg-[#f0e2d3] p-2 rounded-xl h-12 w-12 border-2 border-[#f0e2d3] transition-all ease-in delay-75 hover:scale-110'/></a> 
 
-                <a href="https://leetcode.com/poswalsameer/" target="_blank"><img src="leetcode.png" alt="" className='bg-[#c6ac8f] p-2 rounded-xl h-12 w-12 border-2 border-[#fefae0] mx-8 transition-all ease-in hover:scale-110'/></a>
+                <a href="https://leetcode.com/poswalsameer/" target="_blank"><img src="leetcode.png" alt="" className='bg-[#f0e2d3] p-2 rounded-xl h-12 w-12 border-2 border-[#f0e2d3] mx-8 transition-all ease-in hover:scale-110'/></a>
 
-                <a href="https://twitter.com/sameerposwal03" target="_blank"><img src="twitter.png" alt="" className='bg-[#fefae0] p-2 rounded-xl h-12 w-12 border-2 border-[#644c2f] transition-all ease-in hover:scale-110'/></a>
+                <a href="https://twitter.com/sameerposwal03" target="_blank"><img src="twitter.png" alt="" className='bg-[#f0e2d3] p-2 rounded-xl h-12 w-12 border-2 border-[#f0e2d3] transition-all ease-in hover:scale-110'/></a>
 
-                <a href="https://www.linkedin.com/in/sameerposwal/" target="_blank"><img src="linkedin.png" alt="" className='bg-[#c6ac8f] p-2 rounded-xl h-12 w-12 border-2 border-[#fefae0] mx-8 transition-all ease-in hover:scale-110'/></a>
+                <a href="https://www.linkedin.com/in/sameerposwal/" target="_blank"><img src="linkedin.png" alt="" className='bg-[#f0e2d3] p-2 rounded-xl h-12 w-12 border-2 border-[#f0e2d3] mx-8 transition-all ease-in hover:scale-110'/></a>
             </div>
 
-            <button className='h-12 w-44 font-bold text-[#22333b] bg-[#fefae0] rounded-xl -ml-10 my-12 transition-all ease-in hover:bg-[#22333b] hover:text-[#fefae0] hover:border-2 hover:border-[#fefae0] '>
+            <button className='h-12 w-44 font-bold text-sm text-black bg-[#c3a995] rounded-xl -ml-10 my-12 transition-all ease-in hover:bg-[#f0e2d3] hover:text-black hover:border-2 hover:border-[#fefae0] '>
                 Download Resume
             </button>
 
