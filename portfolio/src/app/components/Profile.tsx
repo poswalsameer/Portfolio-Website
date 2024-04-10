@@ -2,7 +2,7 @@ import React from 'react'
 
 function Profile() {
   return (
-    <div className='w-full'>
+    <div className='w-full ' id='about'>
 
     <h1 className='text-6xl font-bold mx-10 mt-40 mb-5 text-[#faf5f0]' >
             &lt;WHO AM I /&gt;

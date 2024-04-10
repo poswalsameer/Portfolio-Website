@@ -5,11 +5,11 @@ function Contact() {
 
     <>
 
-    <h1 className='text-6xl font-bold mx-10 mt-40 mb-5 text-[#fefae0]' >
+    <h1 className='text-6xl font-bold mx-10 mt-40 mb-5 text-[#fefae0]' id='contact'>
         &lt;CONTACT /&gt;
     </h1>
 
-    <div className='mt-10 text-white text-lg flex flex-col justify-center items-center'>
+    <div className='mt-10 text-white text-lg flex flex-col justify-center items-center' >
 
         <div className=' my-5 flex flex-col justify-center items-center'>
             <p>

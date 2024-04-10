@@ -4,6 +4,9 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+    scroll-behavior: smooth;
+}
 
 /* #firstRow{
     animation: scroll 15s linear infinite;

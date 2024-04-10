@@ -21,7 +21,7 @@ function Hero() {
 
 
   return (
-    <div className=' mt-32 flex flex-row justify-center items-center ' >
+    <div className=' mt-32 flex flex-row justify-center items-center ' id='home'>
         
         <div className=' flex flex-col justify-center items-center ' >
 

@@ -5,16 +5,48 @@ function Skills() {
   return (
 
     <>
-        <h1 className='text-6xl font-bold mx-10 mt-40 mb-10 text-[#faf5f0]' >&lt;TECHNOLOGIES I KNOW /&gt;</h1>
+        <h1 className='text-6xl font-bold mx-10 mt-40 mb-10 text-[#faf5f0]' id='skills'>
+            &lt;TECHNOLOGIES I KNOW /&gt;
+        </h1>
 
-        <div className='text-white flex flex-row justify-between items-center'>
+        <div className='grid grid-cols-2' >
 
-            <h1>Web Technologies</h1>
+            {/* FRONTEND WALA CARD */}
+            <div className='flex flex-col items-center w-[90%] border border-white mx-10 rounded-xl'>
 
-            <div className='grid ' >
+                <p className='text-white my-5'>Frontend Technologies</p>
 
+                <div className='grid grid-cols-4 gap-x-3 my-3 '>
+
+                    <SkillCard image='html.png' />
+                    <SkillCard image='css.png' />
+                    <SkillCard image='javascript.png' />
+                    <SkillCard image='react.png' />
+                    <SkillCard image='next.png' />
+                    <SkillCard image='tailwind.png' />
+                    <SkillCard image='bootstrap.png' />
+                    <SkillCard image='npm.png' />
+
+                </div>
 
             </div>
+
+            {/* BACKEND TECH WALA SECTION */}
+            <div className='flex flex-col  items-center w-[90%] border border-white mx-10 rounded-xl'>
+
+                <p className='text-white my-5'>Backend Technologies</p>
+
+                <div className='grid grid-cols-4 gap-x-3 '>
+
+                    <SkillCard image='javascript.png' />
+                    <SkillCard image='nodejs.png' />
+                    <SkillCard image='express.png' />
+                    <SkillCard image='npm.png' />
+
+                </div>
+
+            </div>
+
 
         </div>
 

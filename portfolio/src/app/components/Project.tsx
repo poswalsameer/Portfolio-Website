@@ -7,7 +7,7 @@ function Project() {
 
       <h1 className='text-6xl font-bold mx-10 mt-40 mb-5 text-[#fefae0]' >&lt;PROJECTS /&gt;</h1>
       
-      <div className='grid grid-cols-3 place-content-center place-items-center'>
+      <div className='grid grid-cols-3 place-content-center place-items-center' id='projects'>
 
         <div className='ml-10 mr-5'> 
 
