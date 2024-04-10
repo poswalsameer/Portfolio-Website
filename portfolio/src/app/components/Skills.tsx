@@ -9,14 +9,14 @@ function Skills() {
             &lt;TECHNOLOGIES I KNOW /&gt;
         </h1>
 
-        <div className='grid grid-cols-2' >
+        <div className='grid grid-cols-2 gap-y-5' >
 
             {/* FRONTEND WALA CARD */}
-            <div className='flex flex-col items-center w-[90%] border border-white mx-10 rounded-xl'>
+            <div className='flex flex-col justify-center items-center h-56 w-[90%] border-2 border-[#faf5f0] border-opacity-40 mx-10 rounded-xl'>
 
-                <p className='text-white my-5'>Frontend Technologies</p>
+                <p className='text-base text-[#faf5f0] text-opacity-70 font-semibold my-2'>Frontend Technologies</p>
 
-                <div className='grid grid-cols-4 gap-x-3 my-3 '>
+                <div className='grid grid-cols-4 gap-x-3'>
 
                     <SkillCard image='html.png' />
                     <SkillCard image='css.png' />
@@ -32,9 +32,9 @@ function Skills() {
             </div>
 
             {/* BACKEND TECH WALA SECTION */}
-            <div className='flex flex-col  items-center w-[90%] border border-white mx-10 rounded-xl'>
+            <div className='flex flex-col justify-center items-center h-56 w-[90%] border-2 border-[#faf5f0] border-opacity-40 mx-10 rounded-xl'>
 
-                <p className='text-white my-5'>Backend Technologies</p>
+                <p className='text-[#faf5f0] font-semibold text-opacity-70 my-2'>Backend Technologies</p>
 
                 <div className='grid grid-cols-4 gap-x-3 '>
 
@@ -42,83 +42,46 @@ function Skills() {
                     <SkillCard image='nodejs.png' />
                     <SkillCard image='express.png' />
                     <SkillCard image='npm.png' />
+                    <SkillCard image='mongo.png' />
+                    <SkillCard image='sql.png' />
 
                 </div>
 
             </div>
 
 
-        </div>
+            {/* DATABASES */}
+            <div className='flex flex-col justify-center items-center h-56 w-[90%] border-2 border-[#faf5f0] border-opacity-40 mx-10 rounded-xl'>
 
-        <div className='grid grid-cols-8 place-content-center place-items-center'>
+                <p className='text-[#faf5f0] font-semibold text-opacity-70  my-2'>Programming Languages</p>
 
-                <div className='' >
+                <div className='grid grid-cols-4 gap-x-3 '>
+
                     <SkillCard image='cpp.png' />
-                </div>
-
-                <div className='' >
-                    <SkillCard image='javascript.png'/>
-                </div>
-
-                <div className='' >
+                    <SkillCard image='javascript.png' />
                     <SkillCard image='csharp.png' />
+                    <SkillCard image='python.png' />                    
+
                 </div>
 
-                <div className='' >
-                    <SkillCard image='html.png'/>
-                </div>
-
-                <div className='' >
-                    <SkillCard image='css.png'/>
-                </div>
-
-                <div className='' >
-                    <SkillCard image='unity.png'/>
-                </div>
-
-
-                <div className='' >
-                    <SkillCard image='react.png'/>
-                </div>
-
-                <div className='' >
-                    <SkillCard image='next.png'/>
-                </div>
-                <div className='' >
-                    <SkillCard image='sql.png'/>
-                </div>
-
-                <div className='' >
-                    <SkillCard image='mongo.png'/>
-                </div>
-
-                <div className='' >
-                    <SkillCard image='python.png'/>
-                </div>
-
-                <div className='' >
-                    <SkillCard image='tailwind.png'/>
-                </div>
-
-            <div className='' >
-                <SkillCard image='nodejs.png'/>
             </div>
 
-            <div className='' >
-                <SkillCard image='bootstrap.png'/>
+            {/* GAME DEVELOPMENT WALA SECTION */}
+
+            <div className='flex flex-col justify-center items-center h-56 w-[90%] border-2 border-[#faf5f0] border-opacity-40 mx-10 rounded-xl'>
+
+                <p className='text-[#faf5f0] font-semibold text-opacity-70  my-2'>Game Development</p>
+
+                <div className='grid grid-cols-2 gap-x-3 '>
+
+                    <SkillCard image='unity.png' />
+                    <SkillCard image='csharp.png' />                    
+
+                </div>
+
             </div>
-
-            <div className='' >
-                <SkillCard image='githubIcon.png'/>
-            </div>
-
-            
-
-                       
 
         </div>
-
-        
 
     </>
   )
