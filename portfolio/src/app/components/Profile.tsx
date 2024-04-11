@@ -4,11 +4,11 @@ function Profile() {
   return (
     <div className='w-full ' id='about'>
 
-    <h1 className='text-6xl font-bold mx-10 mt-40 mb-5 text-[#faf5f0]' >
+    <h1 className='text-5xl font-bold mx-16 mt-40 mb-5 text-[#faf5f0]' >
             &lt;WHO AM I /&gt;
     </h1>
 
-        <div className='mx-10 my-12 flex flex-row items-center text-white text-base text-center font-normal'>
+        <div className='mx-16 my-8 flex flex-row items-center text-white text-base text-center font-normal'>
 
             <div className='h-[60%] w-[30%] '>
                 <img src="myPhoto.jpg" alt="" className='mr-12 p-6 h-[80%] w-full rounded-[2.4rem] ' />

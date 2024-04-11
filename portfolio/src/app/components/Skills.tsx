@@ -5,7 +5,7 @@ function Skills() {
   return (
 
     <>
-        <h1 className='text-6xl font-bold mx-10 mt-40 mb-10 text-[#faf5f0]' id='skills'>
+        <h1 className='text-5xl font-bold mx-10 mt-40 mb-10 text-[#faf5f0]' id='skills'>
             &lt;TECHNOLOGIES I KNOW /&gt;
         </h1>
 
@@ -14,7 +14,7 @@ function Skills() {
             {/* FRONTEND WALA CARD */}
             <div className='flex flex-col justify-center items-center h-56 w-[90%] border-2 border-[#faf5f0] border-opacity-40 mx-10 rounded-xl'>
 
-                <p className='text-base text-[#faf5f0] text-opacity-70 font-semibold my-2'>Frontend Technologies</p>
+                <p className='text-base text-[#faf5f0] font-semibold my-2'>Frontend Technologies</p>
 
                 <div className='grid grid-cols-4 gap-x-3'>
 
@@ -34,7 +34,7 @@ function Skills() {
             {/* BACKEND TECH WALA SECTION */}
             <div className='flex flex-col justify-center items-center h-56 w-[90%] border-2 border-[#faf5f0] border-opacity-40 mx-10 rounded-xl'>
 
-                <p className='text-[#faf5f0] font-semibold text-opacity-70 my-2'>Backend Technologies</p>
+                <p className='text-[#faf5f0] font-semibold my-2'>Backend Technologies</p>
 
                 <div className='grid grid-cols-4 gap-x-3 '>
 
@@ -53,7 +53,7 @@ function Skills() {
             {/* DATABASES */}
             <div className='flex flex-col justify-center items-center h-56 w-[90%] border-2 border-[#faf5f0] border-opacity-40 mx-10 rounded-xl'>
 
-                <p className='text-[#faf5f0] font-semibold text-opacity-70  my-2'>Programming Languages</p>
+                <p className='text-[#faf5f0] font-semibold my-2'>Programming Languages</p>
 
                 <div className='grid grid-cols-4 gap-x-3 '>
 
@@ -70,7 +70,7 @@ function Skills() {
 
             <div className='flex flex-col justify-center items-center h-56 w-[90%] border-2 border-[#faf5f0] border-opacity-40 mx-10 rounded-xl'>
 
-                <p className='text-[#faf5f0] font-semibold text-opacity-70  my-2'>Game Development</p>
+                <p className='text-[#faf5f0] font-semibold my-2'>Game Development</p>
 
                 <div className='grid grid-cols-2 gap-x-3 '>
 

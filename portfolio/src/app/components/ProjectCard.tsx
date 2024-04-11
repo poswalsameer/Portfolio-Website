@@ -7,7 +7,7 @@ function ProjectCard(props: {
   projectImage: string | undefined; projectName: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | React.PromiseLikeOfReactNode | null | undefined; techUsed: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | React.PromiseLikeOfReactNode | null | undefined 
 }) {
   return (
-    <div className='flex flex-col border-2 border-[#fefae0] rounded-xl' >
+    <div className='flex flex-col border-2 border-[#fefae0] rounded-xl transition-all ease-in hover:cursor-pointer hover:scale-105' >
 
         <div>
           <img src={props.projectImage} alt="" className='h-72 w-[24rem] rounded-t-xl' />
