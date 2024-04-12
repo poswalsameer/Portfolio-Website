@@ -9,18 +9,25 @@ html{
     cursor: none;
 }
 
+body{
+    background: linear-gradient( #282420, #1f1b19 );
+    background-attachment: fixed;
+}
+
 #circle {
     --circle-size: 20px;
     position: fixed;
     height: var(--circle-size);
     width: var(--circle-size);
-    border: 1px solid #c3a995;
-    background-color: #c3a995;
+    border: 1px solid #8e7665;
+    background-color: #8e7665;
     border-radius: 100%;
     top: calc(var(--circle-size) / 2 * -1);
     left: calc(var(--circle-size) / 2 * -1);
     pointer-events: none;
+    z-index: 100000;
   }
+
 
 
 /* body:hover > mouseTrailer{

@@ -26,7 +26,7 @@ function Hero() {
         <div className=' flex flex-col justify-center items-center ' >
 
             <h1 className='text-8xl text-[#faf5f0] font-extrabold my-6'>
-                <b>S</b><b>A</b><b>M</b><b>E</b><b>E</b><b>R</b> <b>P</b><b>O</b><b>S</b><b>W</b><b>A</b><b>L</b>
+                <b className='transition-all ease-in hover:text-[#c3a995]'>S</b><b className='transition-all ease-in hover:text-[#c3a995]'>A</b><b className='transition-all ease-in hover:text-[#c3a995]'>M</b><b className='transition-all ease-in hover:text-[#c3a995]'>E</b><b className='transition-all ease-in hover:text-[#c3a995]'>E</b><b className='transition-all ease-in hover:text-[#c3a995]'>R</b> <b className='transition-all ease-in hover:text-[#c3a995]'>P</b><b className='transition-all ease-in hover:text-[#c3a995]'>O</b><b className='transition-all ease-in hover:text-[#c3a995]'>S</b><b className='transition-all ease-in hover:text-[#c3a995]'>W</b><b className='transition-all ease-in hover:text-[#c3a995]'>A</b><b className='transition-all ease-in hover:text-[#c3a995]'>L</b>
             </h1>
 
             <div className='flex flex-row text-5xl text-[#c3a995] font-semibold my-3 ' >
@@ -44,8 +44,9 @@ function Hero() {
                 <a href="https://www.linkedin.com/in/sameerposwal/" target="_blank"><img src="linkedin.png" alt="" className='bg-[#f0e2d3] p-2 rounded-xl h-12 w-12 border-2 border-[#f0e2d3] mx-8 transition-all ease-in hover:scale-110 hover:cursor-none'/></a>
             </div>
 
-            <button className='h-12 w-44 font-bold text-sm text-black bg-[#c3a995] rounded-xl -ml-10 my-12 transition-all ease-in hover:bg-[#f0e2d3] hover:text-black hover:border-2 hover:border-[#fefae0] hover:cursor-none '>
-                Download Resume
+            <button className='h-12 w-44 flex flex-row justify-center items-center font-bold text-lg text-black bg-[#c3a995] rounded-xl -ml-10 my-12 transition-all ease-in hover:bg-[#f0e2d3] hover:text-black hover:border-2 hover:border-[#fefae0] hover:cursor-none '>
+                <p className='mx-2'>Resume</p> 
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-download"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
             </button>
 
         </div>
