@@ -29,7 +29,7 @@ function Project() {
 
         <div className='ml-10 mr-5'>
 
-          <ProjectCard projectImage='sign.jpg' projectName='Digital Ink' techUsed='ReactJS, HTML Canvas, Tailwind CSS' liveLink='https://digitalinknew.vercel.app/' github="https://github.com/poswalsameer/DigitalInk"/>
+          <ProjectCard projectImage='sign.jpg' projectName='Digital Ink' techUsed='NextJS, ReactJS, HTML Canvas, Tailwind CSS' liveLink='https://digitalinknew.vercel.app/' github="https://github.com/poswalsameer/DigitalInk"/>
           
         </div>
 
@@ -53,7 +53,7 @@ function Project() {
 
         <div className='m-10'>
 
-          <ProjectCard projectImage='tic.jpg' projectName='Tic Tac Toe' techUsed='HTML, Tailwind CSS JavaScript' liveLink='https://tictactango.netlify.app/' github="https://github.com/poswalsameer/Tic-Tac-Toe"/>
+          <ProjectCard projectImage='tic.jpg' projectName='Tic Tac Tango' techUsed='HTML, Tailwind CSS, JavaScript' liveLink='https://tictactango.netlify.app/' github="https://github.com/poswalsameer/Tic-Tac-Toe"/>
           
         </div>
 

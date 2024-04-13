@@ -10,7 +10,8 @@ html{
 }
 
 body{
-    background: linear-gradient( #282420, #1f1b19 );
+    /* background: linear-gradient( #342f2a,#332e29 ,#282420, #1e1a18 ); */
+    background: radial-gradient( #342f2a,#332e29 ,#282420, #1e1a18 );
     background-attachment: fixed;
 }
 
