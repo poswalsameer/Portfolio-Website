@@ -2,9 +2,13 @@ import React from 'react'
 
 function Profile() {
   return (
-    <div className='lg:w-full xl:w-full 2xl:w-full ' id='about'>
+    <div className='sm:w-full md:w-full lg:w-full xl:w-full 2xl:w-full ' id='about'>
 
-    <h1 className='lg:text-5xl lg:font-bold lg:mx-16 lg:mt-40 lg:mb-5 lg:text-[#faf5f0]
+    <h1 className='sm:text-4xl sm:font-bold sm:mx-6 sm:mt-40 sm:mb-1 sm:text-[#faf5f0]
+    
+    md:text-4xl md:font-bold md:mx-16 md:mt-40 md:mb-1 md:text-[#faf5f0]
+    
+    lg:text-5xl lg:font-bold lg:mx-16 lg:mt-40 lg:mb-5 lg:text-[#faf5f0]
     
     xl:text-5xl xl:font-bold xl:mx-16 xl:mt-40 xl:mb-5 xl:text-[#faf5f0]
     
@@ -12,46 +16,58 @@ function Profile() {
             &lt;WHO AM I /&gt;
     </h1>
 
-        <div className='lg:mx-16 lg:my-16 lg:flex lg:flex-row lg:items-center lg:text-white lg:text-base lg:text-center lg:font-normal
+        <div className='sm:mx-8 sm:my-8 sm:flex sm:flex-col-reverse sm:items-center sm:text-white sm:text-sm sm:text-center sm:font-normal
         
-        xl:mx-16 xl:my-16 xl:flex xl:flex-row xl:items-center xl:text-white xl:text-base xl:text-center xl:font-normal
+        md:mx-6 md:my-8 md:flex md:flex-row md:items-center md:text-white md:text-sm md:text-center md:font-normal
         
-        2xl:mx-16 2xl:my-16 2xl:flex 2xl:flex-row 2xl:items-center 2xl:text-white 2xl:text-base 2xl:text-center 2xl:font-normal'>
+        lg:mx-12 lg:my-8 lg:flex lg:flex-row lg:items-center lg:text-white lg:text-base lg:text-center lg:font-normal
+        
+        xl:mx-12 xl:my-8 xl:flex xl:flex-row xl:items-center xl:text-white xl:text-base xl:text-center xl:font-normal
+        
+        2xl:mx-12 2xl:my-8 2xl:flex 2xl:flex-row 2xl:items-center 2xl:text-white 2xl:text-base 2xl:text-center 2xl:font-normal'>
 
-            {/* <div className='h-full w-[30%] '>
-                <img src="cloudEnd.jpg" alt="" className='ml-6 h-[40%] w-[80%] rounded-3xl shadow-white ' />
-            </div> */}
-
-            <div className='lg:p-2 lg:text-left lg:text-base lg:font-medium lg:h-[50%] lg:w-[70%] lg:mr-7
+            <div className='sm:p-2 sm:text-center sm:text-sm sm:font-medium sm:h-[50%] sm:w-[100%] sm:mr-3
+            
+            md:p-1 md:text-left md:text-sm md:font-medium md:h-[50%] md:w-[75%] md:mr-3
+            
+            lg:p-2 lg:text-left lg:text-base lg:font-medium lg:h-[50%] lg:w-[70%] lg:mr-7
             
             xl:p-2 xl:text-left xl:text-lg xl:font-medium xl:h-[50%] xl:w-[70%] xl:mr-7
             
             2xl:p-2 2xl:text-left 2xl:text-xl 2xl:font-medium 2xl:h-[60%] 2xl:w-[70%] 2xl:mr-7'>
 
-                <p className='lg:my-5 xl:my-5 2xl:my-5'>
+                <p className='sm:my-3 md:my-3 lg:my-5 xl:my-5 2xl:my-5'>
                   Embarking on a programming journey at 15, I discovered my boundless passion for crafting exceptional software which started with the fascination of ' HOW CAN I MAKE THESE THINGS WHICH I USE DAILY? '
                 </p> 
                   
-                <p className='lg:my-5 xl:my-5 2xl:my-5'>
+                <p className='sm:my-3 md:my-3 lg:my-5 xl:my-5 2xl:my-5'>
                   With a commitment to excellence, I prioritize user-centric design and seamless functionality. Thriving in collaborative environments, I'm eager to synergize with fellow developers, designers, and stakeholders.
                 </p> 
                   
-                <p className='lg:my-5 xl:my-5 2xl:my-5'>
+                <p className='sm:my-3 md:my-3 lg:my-5 xl:my-5 2xl:my-5'>
                   Beyond this world of semicolons and bugs, I find myself inclined in retro gaming and emulation, I also used to play volleyball in my earlier days of college life. 
                 </p>
 
-                <p className='lg:my-5 xl:my-5 2xl:my-5'>
+                <p className='sm:my-3 md:my-3 lg:my-5 xl:my-5 2xl:my-5'>
                   Looking forward to collaborate and grow in the industry, striving to leverage my skills and expertise to drive better solutions for humanity and this technologically advanced world. 
                 </p>
 
             </div>
 
-            <div className='lg:h-full lg:w-[30%]
+            <div className=' sm:my-3 sm:h-[50%] sm:w-[30%]
+            
+            md:h-[300px] md:w-[50%]
+            
+            lg:h-[350px] lg:w-[40%]
             
             xl:h-full xl:w-[30%]
             
             2xl:h-full 2xl:w-[30%] '>
-                <img src="cloudEnd.jpg" alt="" className='lg:ml-6 lg:h-[100%] lg:w-[100%] lg:rounded-3xl
+                <img src="cloudEnd.jpg" alt="" className='sm:ml-1 sm:h-[100%] sm:w-[100%] sm:rounded-full
+                
+                md:ml-1 md:h-[100%] md:w-[100%] md:rounded-3xl
+                
+                lg:ml-1 lg:h-[100%] lg:w-[100%] lg:rounded-3xl
                 
                 xl:ml-6 xl:h-[60%] xl:w-[95%] xl:rounded-3xl
                 

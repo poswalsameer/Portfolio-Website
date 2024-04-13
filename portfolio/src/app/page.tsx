@@ -136,6 +136,21 @@ export default function Home() {
   }, []);
 
 
+  //conditional rendering
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   return (
       
     <>
@@ -144,7 +159,10 @@ export default function Home() {
 
         <div id="circle" ref={circleRef}></div>
 
-        <Header />
+        {windowWidth > 767 && (
+          <Header />
+        )}
+
         <Hero />
         <Profile />
         <Skills />
