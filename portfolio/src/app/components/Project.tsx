@@ -5,15 +5,21 @@ function Project() {
   return (
     <>
 
-      <h1 className='xl:text-5xl xl:font-bold xl:mx-10 xl:mt-40 xl:mb-5 xl:text-[#fefae0]
+      <h1 className='lg:text-5xl lg:font-bold lg:mx-10 lg:mt-40 lg:mb-5 lg:text-[#fefae0]
+      
+      xl:text-5xl xl:font-bold xl:mx-10 xl:mt-40 xl:mb-5 xl:text-[#fefae0]
       
       2xl:text-5xl 2xl:font-bold 2xl:mx-10 2xl:mt-40 2xl:mb-5 2xl:text-[#fefae0]' >&lt;PROJECTS /&gt;</h1>
       
-      <div className='xl:grid xl:grid-cols-3 xl:place-content-center xl:place-items-center
+      <div className='lg:grid lg:grid-cols-3 lg:place-content-center lg:place-items-center
+      
+      xl:grid xl:grid-cols-3 xl:place-content-center xl:place-items-center
       
       2xl:grid 2xl:grid-cols-3 2xl:place-content-center 2xl:place-items-center' id='projects'>
 
-        <div className='xl:ml-10 xl:mr-5
+        <div className='lg:ml-10 lg:mr-5
+        
+        xl:ml-10 xl:mr-5
         
         2xl:ml-10 2xl:mr-5'> 
 
@@ -21,7 +27,9 @@ function Project() {
 
         </div>
 
-        <div className='xl:m-10 
+        <div className='lg:m-10 
+        
+        xl:m-10 
         
         2xl:m-10'>
 
@@ -29,7 +37,9 @@ function Project() {
 
         </div>
 
-        <div className='xl:mr-10 xl:ml-5 
+        <div className='lg:mr-10 lg:ml-5 
+        
+        xl:mr-10 xl:ml-5 
         
         2xl:mr-10 2xl:ml-5'>
 
@@ -37,7 +47,9 @@ function Project() {
 
         </div>
 
-        <div className='xl:ml-10 xl:mr-5 
+        <div className='lg:ml-10 lg:mr-5
+        
+        xl:ml-10 xl:mr-5 
         
         2xl:ml-10 2xl:mr-5'>
 
@@ -45,7 +57,9 @@ function Project() {
           
         </div>
 
-        <div className='xl:m-10 
+        <div className='lg:m-10
+        
+        xl:m-10 
         
         2xl:m-10'>
 
@@ -53,7 +67,9 @@ function Project() {
           
         </div>
 
-        <div className='xl:mr-10 xl:ml-5 
+        <div className='lg:mr-10 lg:ml-5
+        
+        xl:mr-10 xl:ml-5 
         
         2xl:mr-10 2xl:ml-5'>
 
@@ -61,7 +77,9 @@ function Project() {
           
         </div>
 
-        <div className='xl:ml-10 xl:mr-5 
+        <div className='lg:ml-10 lg:mr-5
+        
+        xl:ml-10 xl:mr-5 
         
         2xl:ml-10 2xl:mr-5'>
 
@@ -69,7 +87,9 @@ function Project() {
           
         </div>
 
-        <div className='xl:m-10
+        <div className='lg:m-10
+        
+        xl:m-10
         
         2xl:m-10'>
 
@@ -77,7 +97,9 @@ function Project() {
           
         </div>
 
-        <div className='xl:mr-10 xl:ml-5
+        <div className='lg:mr-10 lg:ml-5
+        
+        xl:mr-10 xl:ml-5
         
         2xl:mr-10 2xl:ml-5'>
 
