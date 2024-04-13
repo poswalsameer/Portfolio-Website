@@ -21,7 +21,9 @@ function Hero() {
 
 
   return (
-    <div className='sm:mt-44 sm:flex sm:flex-row sm:justify-center sm:items-center
+    <div className='mt-52 flex flex-row justify-center items-center
+    
+    sm:mt-44 sm:flex sm:flex-row sm:justify-center sm:items-center
     
     md:mt-32 md:flex md:flex-row md:justify-center md:items-center
     
@@ -31,7 +33,9 @@ function Hero() {
     
     2xl:mt-32 2xl:flex 2xl:flex-row 2xl:justify-center 2xl:items-center ' id='home'>
         
-        <div className='sm:flex sm:flex-col sm:justify-center sm:items-center 
+        <div className='flex flex-col justify-center items-center 
+        
+        sm:flex sm:flex-col sm:justify-center sm:items-center 
         
         md:flex md:flex-col md:justify-center md:items-center 
         
@@ -41,7 +45,9 @@ function Hero() {
         
         2xl:flex 2xl:flex-col 2xl:justify-center 2xl:items-center ' >
 
-            <h1 className='sm:text-6xl sm:text-[#faf5f0] sm:font-extrabold sm:my-6
+            <h1 className='text-4xl text-[#faf5f0] font-extrabold my-6
+            
+            sm:text-6xl sm:text-[#faf5f0] sm:font-extrabold sm:my-6
             
             md:text-7xl md:text-[#faf5f0] md:font-extrabold md:my-6
             
@@ -54,7 +60,9 @@ function Hero() {
                 <b className='transition-all ease-in hover:text-[#c3a995]'>S</b><b className='transition-all ease-in hover:text-[#c3a995]'>A</b><b className='transition-all ease-in hover:text-[#c3a995]'>M</b><b className='transition-all ease-in hover:text-[#c3a995]'>E</b><b className='transition-all ease-in hover:text-[#c3a995]'>E</b><b className='transition-all ease-in hover:text-[#c3a995]'>R</b> <b className='transition-all ease-in hover:text-[#c3a995]'>P</b><b className='transition-all ease-in hover:text-[#c3a995]'>O</b><b className='transition-all ease-in hover:text-[#c3a995]'>S</b><b className='transition-all ease-in hover:text-[#c3a995]'>W</b><b className='transition-all ease-in hover:text-[#c3a995]'>A</b><b className='transition-all ease-in hover:text-[#c3a995]'>L</b>
             </h1>
 
-            <div className='sm:flex sm:flex-row sm:text-4xl sm:text-[#c3a995] sm:font-semibold sm:my-3
+            <div className='flex flex-row text-2xl text-[#c3a995] font-semibold my-3
+            
+            sm:flex sm:flex-row sm:text-4xl sm:text-[#c3a995] sm:font-semibold sm:my-3
             
             md:flex md:flex-row md:text-4xl md:text-[#c3a995] md:font-semibold md:my-3
             
@@ -64,7 +72,9 @@ function Hero() {
             
             2xl:flex 2xl:flex-row 2xl:text-5xl 2xl:text-[#c3a995] 2xl:font-semibold 2xl:my-3 ' >
 
-                <h1 className='sm:absolute sm:-ml-[28%] sm:text-[#c3a995]
+                <h1 className='absolute -ml-[31%] text-[#c3a995]
+                
+                sm:absolute sm:-ml-[28%] sm:text-[#c3a995]
                 
                 md:absolute md:-ml-[23%] md:text-[#c3a995]
                 
@@ -74,7 +84,9 @@ function Hero() {
                 
                 2xl:absolute 2xl:-ml-[15%] 2xl:text-[#c3a995]'><TextTransition springConfig={presets.wobbly}>{texts[index % texts.length]}</TextTransition></h1>
 
-                <h1 className='sm:absolute sm:ml-[0%]
+                <h1 className='absolute ml-[0%]
+                
+                sm:absolute sm:ml-[0%]
                 
                 md:absolute md:ml-[0%]
                 
@@ -87,7 +99,9 @@ function Hero() {
                 </h1>
             </div>
 
-            <div className='sm:flex sm:flex-row sm:mt-14
+            <div className='flex flex-row mt-12
+            
+            sm:flex sm:flex-row sm:mt-14
             
             md:flex md:flex-row md:mt-20
             
@@ -97,7 +111,9 @@ function Hero() {
             
             2xl:flex 2xl:flex-row 2xl:mt-20' >
 
-                <a href="https://github.com/poswalsameer" target="_blank"><img src="github.png" alt="" className='sm:bg-[#f0e2d3] sm:p-2 sm:rounded-xl sm:h-10 sm:w-10 sm:border-2 sm:border-[#f0e2d3] sm:transition-all sm:ease-in sm:delay-75 sm:hover:scale-110 sm:hover:cursor-none sm:mx-3
+                <a href="https://github.com/poswalsameer" target="_blank"><img src="github.png" alt="" className='bg-[#f0e2d3] p-2 rounded-xl h-10 w-10 border-2 border-[#f0e2d3] transition-all ease-in delay-75 hover:scale-110 hover:cursor-none mx-2
+                
+                sm:bg-[#f0e2d3] sm:p-2 sm:rounded-xl sm:h-10 sm:w-10 sm:border-2 sm:border-[#f0e2d3] sm:transition-all sm:ease-in sm:delay-75 sm:hover:scale-110 sm:hover:cursor-none sm:mx-3
                 
                 md:bg-[#f0e2d3] md:p-2 md:rounded-xl md:h-12 md:w-12 md:border-2 md:border-[#f0e2d3] md:transition-all md:ease-in md:delay-75 md:hover:scale-110 md:hover:cursor-none md:mx-4
                 
@@ -107,7 +123,9 @@ function Hero() {
                 
                 2xl:bg-[#f0e2d3] 2xl:p-2 2xl:rounded-xl 2xl:h-12 2xl:w-12 2xl:border-2 2xl:border-[#f0e2d3] 2xl:transition-all 2xl:ease-in 2xl:delay-75 2xl:hover:scale-110 2xl:hover:cursor-none 2xl:mx-4 '/></a> 
 
-                <a href="https://leetcode.com/poswalsameer/" target="_blank"><img src="leetcode.png" alt="" className='sm:bg-[#f0e2d3] sm:p-2 sm:rounded-xl sm:h-10 sm:w-10 sm:border-2 sm:border-[#f0e2d3] sm:transition-all sm:ease-in sm:delay-75 sm:hover:scale-110 sm:hover:cursor-none sm:mx-3
+                <a href="https://leetcode.com/poswalsameer/" target="_blank"><img src="leetcode.png" alt="" className='bg-[#f0e2d3] p-2 rounded-xl h-10 w-10 border-2 border-[#f0e2d3] transition-all ease-in delay-75 hover:scale-110 hover:cursor-none mx-2
+                
+                sm:bg-[#f0e2d3] sm:p-2 sm:rounded-xl sm:h-10 sm:w-10 sm:border-2 sm:border-[#f0e2d3] sm:transition-all sm:ease-in sm:delay-75 sm:hover:scale-110 sm:hover:cursor-none sm:mx-3
                 
                 md:bg-[#f0e2d3] md:p-2 md:rounded-xl md:h-12 md:w-12 md:border-2 md:border-[#f0e2d3] md:transition-all md:ease-in md:delay-75 md:hover:scale-110 md:hover:cursor-none md:mx-4
                 
@@ -117,7 +135,9 @@ function Hero() {
                 
                 2xl:bg-[#f0e2d3] 2xl:p-2 2xl:rounded-xl 2xl:h-12 2xl:w-12 2xl:border-2 2xl:border-[#f0e2d3] 2xl:mx-4 2xl:transition-all 2xl:ease-in 2xl:hover:scale-110 2xl:hover:cursor-none'/></a>
 
-                <a href="https://twitter.com/sameerposwal03" target="_blank"><img src="twitter.png" alt="" className='sm:bg-[#f0e2d3] sm:p-2 sm:rounded-xl sm:h-10 sm:w-10 sm:border-2 sm:border-[#f0e2d3] sm:transition-all sm:ease-in sm:delay-75 sm:hover:scale-110 sm:hover:cursor-none sm:mx-3
+                <a href="https://twitter.com/sameerposwal03" target="_blank"><img src="twitter.png" alt="" className='bg-[#f0e2d3] p-2 rounded-xl h-10 w-10 border-2 border-[#f0e2d3] transition-all ease-in delay-75 hover:scale-110 hover:cursor-none mx-2
+                
+                sm:bg-[#f0e2d3] sm:p-2 sm:rounded-xl sm:h-10 sm:w-10 sm:border-2 sm:border-[#f0e2d3] sm:transition-all sm:ease-in sm:delay-75 sm:hover:scale-110 sm:hover:cursor-none sm:mx-3
                 
                 md:bg-[#f0e2d3] md:p-2 md:rounded-xl md:h-12 md:w-12 md:border-2 md:border-[#f0e2d3] md:transition-all md:ease-in md:delay-75 md:hover:scale-110 md:hover:cursor-none md:mx-4
                 
@@ -127,7 +147,9 @@ function Hero() {
                 
                 2xl:bg-[#f0e2d3] 2xl:p-2 2xl:rounded-xl 2xl:h-12 2xl:w-12 2xl:border-2 2xl:border-[#f0e2d3] 2xl:transition-all 2xl:ease-in 2xl:hover:scale-110 2xl:hover:cursor-none 2xl:mx-4'/></a>
 
-                <a href="https://www.linkedin.com/in/sameerposwal/" target="_blank"><img src="linkedin.png" alt="" className='sm:bg-[#f0e2d3] sm:p-2 sm:rounded-xl sm:h-10 sm:w-10 sm:border-2 sm:border-[#f0e2d3] sm:transition-all sm:ease-in sm:delay-75 sm:hover:scale-110 sm:hover:cursor-none sm:mx-3
+                <a href="https://www.linkedin.com/in/sameerposwal/" target="_blank"><img src="linkedin.png" alt="" className='bg-[#f0e2d3] p-2 rounded-xl h-10 w-10 border-2 border-[#f0e2d3] transition-all ease-in delay-75 hover:scale-110 hover:cursor-none mx-2
+                
+                sm:bg-[#f0e2d3] sm:p-2 sm:rounded-xl sm:h-10 sm:w-10 sm:border-2 sm:border-[#f0e2d3] sm:transition-all sm:ease-in sm:delay-75 sm:hover:scale-110 sm:hover:cursor-none sm:mx-3
                 
                 md:bg-[#f0e2d3] md:p-2 md:rounded-xl md:h-12 md:w-12 md:border-2 md:border-[#f0e2d3] md:transition-all md:ease-in md:delay-75 md:hover:scale-110 md:hover:cursor-none md:mx-4
                 
@@ -139,7 +161,9 @@ function Hero() {
             </div>
 
             <a href="SameerPoswalResume.pdf" download>
-                <button className='sm:h-12 sm:w-44 sm:flex sm:flex-row sm:justify-center sm:items-center sm:font-bold sm:text-lg sm:text-black sm:bg-[#c3a995] sm:rounded-xl sm:-ml-1 sm:my-12 sm:transition-all sm:ease-in sm:hover:bg-[#f0e2d3] sm:hover:text-black sm:hover:border-2 sm:hover:border-[#fefae0] sm:hover:cursor-none
+                <button className='h-10 w-36 flex flex-row justify-center items-center font-bold text-lg text-black bg-[#c3a995] rounded-lg -ml-1 my-8 transition-all ease-in hover:bg-[#f0e2d3] hover:text-black hover:border-2 hover:border-[#fefae0] hover:cursor-none
+                
+                sm:h-12 sm:w-44 sm:flex sm:flex-row sm:justify-center sm:items-center sm:font-bold sm:text-lg sm:text-black sm:bg-[#c3a995] sm:rounded-xl sm:-ml-1 sm:my-12 sm:transition-all sm:ease-in sm:hover:bg-[#f0e2d3] sm:hover:text-black sm:hover:border-2 sm:hover:border-[#fefae0] sm:hover:cursor-none
                 
                 md:h-12 md:w-44 md:flex md:flex-row md:justify-center md:items-center md:font-bold md:text-lg md:text-black md:bg-[#c3a995] md:rounded-xl md:-ml-1 md:my-12 md:transition-all md:ease-in md:hover:bg-[#f0e2d3] md:hover:text-black md:hover:border-2 md:hover:border-[#fefae0] md:hover:cursor-none
                 
@@ -154,9 +178,6 @@ function Hero() {
             </a>
 
         </div>
-
-        {/* <img src="meInSuit.jpg" alt="" id='imageDiv' className='h-[30rem] w-[22rem] rounded-xl my-10 mr-36' /> */}
-
 
     </div>
   )

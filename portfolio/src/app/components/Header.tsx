@@ -67,9 +67,6 @@ function Header() {
         2xl:mx-16 2xl:text-base 2xl:font-bold 2xl:text-[#0a0908] ' >
           <a href="#contact" className='hover:cursor-none'>&lt;Contact /&gt;</a>
         </p>
-        
-        {/* <p className='mx-14 text-xl font-bold text-purple-950'>&lt;Contact Me /&gt;</p> */}
-
 
       </div>
 

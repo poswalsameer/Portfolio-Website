@@ -5,21 +5,25 @@ function Skills() {
   return (
 
     <>
-        <h1 className='sm:text-4xl sm:font-bold sm:mx-10 sm:mt-40 sm:mb-10 sm:text-[#faf5f0]
+        <h1 className='text-2xl font-bold mx-4 mt-40 mb-10 text-[#faf5f0]
         
-        md:text-4xl md:font-bold md:mx-10 md:mt-40 md:mb-10 md:text-[#faf5f0]
+        sm:text-4xl sm:font-bold sm:mx-6 sm:mt-40 sm:mb-10 sm:text-[#faf5f0]
+        
+        md:text-4xl md:font-bold md:mx-8 md:mt-40 md:mb-10 md:text-[#faf5f0]
         
         lg:text-5xl lg:font-bold lg:mx-10 lg:mt-40 lg:mb-10 lg:text-[#faf5f0]
         
         xl:text-5xl xl:font-bold xl:mx-10 xl:mt-40 xl:mb-10 xl:text-[#faf5f0]
         
-        2xl:text-5xl 2xl:font-bold 2xl:mx-10 2xl:mt-40 2xl:mb-10 2xl:text-[#faf5f0]' id='skills'>
+        2xl:text-5xl 2xl:font-bold 2xl:mx-12 2xl:mt-40 2xl:mb-10 2xl:text-[#faf5f0]' id='skills'>
             &lt;TECHNOLOGIES I KNOW /&gt;
         </h1>
 
-        <div className='sm:mr-8 sm:grid sm:grid-cols-1 sm:gap-y-5
+        <div className='grid place-content-center place-items-center grid-cols-1 gap-y-5
         
-        md:mr-8 md:grid md:grid-cols-2 md:gap-y-5
+        sm:grid sm:grid-cols-1 sm:gap-y-5
+        
+        md:grid md:grid-cols-2 md:gap-y-5
         
         lg:grid lg:grid-cols-2 lg:gap-y-5
         
@@ -28,7 +32,9 @@ function Skills() {
         2xl:grid 2xl:grid-cols-2 2xl:gap-y-5' >
 
             {/* FRONTEND WALA CARD */}
-            <div className='sm:flex sm:flex-col sm:justify-center sm:items-center sm:h-32 sm:w-[93%] sm:border-2 sm:border-[#faf5f0] sm:border-opacity-40 sm:mx-10 sm:rounded-xl
+            <div className='flex flex-col justify-center items-center h-[6.5rem] w-[95%] border-2 border-[#faf5f0] border-opacity-40 mx-14 rounded-xl
+            
+            sm:flex sm:flex-col sm:justify-center sm:items-center sm:h-32 sm:w-[93%] sm:border-2 sm:border-[#faf5f0] sm:border-opacity-40 sm:mx-10 sm:rounded-xl
             
             md:flex md:flex-col md:justify-center md:items-center md:h-56 md:w-[90%] md:border-2 md:border-[#faf5f0] md:border-opacity-40 md:mx-10 md:rounded-xl
             
@@ -38,7 +44,9 @@ function Skills() {
             
             2xl:flex 2xl:flex-col 2xl:justify-center 2xl:items-center 2xl:h-56 2xl:w-[90%] 2xl:border-2 2xl:border-[#faf5f0] 2xl:border-opacity-40 2xl:mx-10 2xl:rounded-xl'>
 
-                <p className='sm:text-base sm:text-[#faf5f0] sm:font-semibold sm:my-2
+                <p className='text-base text-[#faf5f0] font-semibold my-1
+                
+                sm:text-base sm:text-[#faf5f0] sm:font-semibold sm:my-2
                 
                 md:text-base md:text-[#faf5f0] md:font-semibold md:my-2
                 
@@ -48,7 +56,9 @@ function Skills() {
                 
                 2xl:text-base 2xl:text-[#faf5f0] 2xl:font-semibold 2xl:my-2'>Frontend Technologies</p>
 
-                <div className='sm:grid sm:grid-cols-8 sm:gap-x-3
+                <div className='grid grid-cols-8 gap-x-1
+                
+                sm:grid sm:grid-cols-8 sm:gap-x-3
                 
                 md:grid md:grid-cols-4 md:gap-x-3
                 
@@ -72,7 +82,9 @@ function Skills() {
             </div>
 
             {/* BACKEND TECH WALA SECTION */}
-            <div className='sm:flex sm:flex-col sm:justify-center sm:items-center sm:h-32 sm:w-[93%] sm:border-2 sm:border-[#faf5f0] sm:border-opacity-40 sm:mx-10 sm:rounded-xl
+            <div className='flex flex-col justify-center items-center h-[6.5rem] w-[95%] border-2 border-[#faf5f0] border-opacity-40 mx-14 rounded-xl
+            
+            sm:flex sm:flex-col sm:justify-center sm:items-center sm:h-32 sm:w-[93%] sm:border-2 sm:border-[#faf5f0] sm:border-opacity-40 sm:mx-10 sm:rounded-xl
             
             md:flex md:flex-col md:justify-center md:items-center md:h-56 md:w-[90%] md:border-2 md:border-[#faf5f0] md:border-opacity-40 md:mx-10 md:rounded-xl
             
@@ -82,7 +94,9 @@ function Skills() {
             
             2xl:flex 2xl:flex-col 2xl:justify-center 2xl:items-center 2xl:h-56 2xl:w-[90%] 2xl:border-2 2xl:border-[#faf5f0] 2xl:border-opacity-40 2xl:mx-10 2xl:rounded-xl'>
 
-                <p className='sm:text-base sm:text-[#faf5f0] sm:font-semibold sm:my-2
+                <p className='text-base text-[#faf5f0] font-semibold my-1
+                
+                sm:text-base sm:text-[#faf5f0] sm:font-semibold sm:my-2
                 
                 md:text-base md:text-[#faf5f0] md:font-semibold md:my-2
                 
@@ -92,7 +106,9 @@ function Skills() {
                 
                 2xl:text-[#faf5f0] 2xl:font-semibold 2xl:my-2'>Backend Technologies</p>
 
-                <div className='sm:grid sm:grid-cols-6 sm:gap-x-3
+                <div className='grid grid-cols-6 gap-x-2
+                
+                sm:grid sm:grid-cols-6 sm:gap-x-3
                 
                 md:grid md:grid-cols-4 md:gap-x-3
                 
@@ -115,7 +131,9 @@ function Skills() {
 
 
             {/* DATABASES */}
-            <div className='sm:flex sm:flex-col sm:justify-center sm:items-center sm:h-32 sm:w-[93%] sm:border-2 sm:border-[#faf5f0] sm:border-opacity-40 sm:mx-10 sm:rounded-xl
+            <div className='flex flex-col justify-center items-center h-[6.5rem] w-[95%] border-2 border-[#faf5f0] border-opacity-40 mx-14 rounded-xl
+            
+            sm:flex sm:flex-col sm:justify-center sm:items-center sm:h-32 sm:w-[93%] sm:border-2 sm:border-[#faf5f0] sm:border-opacity-40 sm:mx-10 sm:rounded-xl
             
             md:flex md:flex-col md:justify-center md:items-center md:h-56 md:w-[90%] md:border-2 md:border-[#faf5f0] md:border-opacity-40 md:mx-10 md:rounded-xl
             
@@ -125,7 +143,9 @@ function Skills() {
             
             2xl:flex 2xl:flex-col 2xl:justify-center 2xl:items-center 2xl:h-56 2xl:w-[90%] 2xl:border-2 2xl:border-[#faf5f0] 2xl:border-opacity-40 2xl:mx-10 2xl:rounded-xl'>
 
-                <p className='sm:text-base sm:text-[#faf5f0] sm:font-semibold sm:my-2
+                <p className='text-base text-[#faf5f0] font-semibold my-1
+                
+                sm:text-base sm:text-[#faf5f0] sm:font-semibold sm:my-2
                 
                 md:text-base md:text-[#faf5f0] md:font-semibold md:my-2
                 
@@ -135,7 +155,9 @@ function Skills() {
                 
                 2xl:text-[#faf5f0] 2xl:font-semibold 2xl:my-2'>Programming Languages</p>
 
-                <div className='sm:grid sm:grid-cols-4 sm:gap-x-3
+                <div className='grid grid-cols-4 gap-x-2
+                
+                sm:grid sm:grid-cols-4 sm:gap-x-3
                 
                 md:grid md:grid-cols-4 md:gap-x-3
                 
@@ -156,7 +178,9 @@ function Skills() {
 
             {/* GAME DEVELOPMENT WALA SECTION */}
 
-            <div className='sm:flex sm:flex-col sm:justify-center sm:items-center sm:h-32 sm:w-[93%] sm:border-2 sm:border-[#faf5f0] sm:border-opacity-40 sm:mx-10 sm:rounded-xl
+            <div className='flex flex-col justify-center items-center h-[6.5rem] w-[95%] border-2 border-[#faf5f0] border-opacity-40 mx-14 rounded-xl
+            
+            sm:flex sm:flex-col sm:justify-center sm:items-center sm:h-32 sm:w-[93%] sm:border-2 sm:border-[#faf5f0] sm:border-opacity-40 sm:mx-10 sm:rounded-xl
             
             md:flex md:flex-col md:justify-center md:items-center md:h-56 md:w-[90%] md:border-2 md:border-[#faf5f0] md:border-opacity-40 md:mx-10 md:rounded-xl
             
@@ -166,7 +190,9 @@ function Skills() {
             
             2xl:flex 2xl:flex-col 2xl:justify-center 2xl:items-center 2xl:h-56 2xl:w-[90%] 2xl:border-2 2xl:border-[#faf5f0] 2xl:border-opacity-40 2xl:mx-10 2xl:rounded-xl'>
 
-                <p className='sm:text-base sm:text-[#faf5f0] sm:font-semibold sm:my-2
+                <p className='text-base text-[#faf5f0] font-semibold my-1
+                
+                sm:text-base sm:text-[#faf5f0] sm:font-semibold sm:my-2
                 
                 md:text-base md:text-[#faf5f0] md:font-semibold md:my-2
                 
@@ -176,7 +202,9 @@ function Skills() {
                 
                 2xl:text-[#faf5f0] 2xl:font-semibold 2xl:my-2'>Game Development</p>
 
-                <div className='sm:grid sm:grid-cols-2 sm:gap-x-3
+                <div className='grid grid-cols-2 gap-x-2
+                
+                sm:grid sm:grid-cols-2 sm:gap-x-3
                 
                 md:grid md:grid-cols-2 md:gap-x-3
                 

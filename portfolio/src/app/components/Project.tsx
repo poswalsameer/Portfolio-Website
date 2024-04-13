@@ -5,15 +5,23 @@ function Project() {
   return (
     <>
 
-      <h1 className='md:text-4xl md:font-bold md:mx-10 md:mt-40 md:mb-5 md:text-[#fefae0]
+      <h1 className='text-2xl font-bold mx-4 mt-40 mb-10 text-[#fefae0]
+      
+      sm:text-4xl sm:font-bold sm:mx-6 sm:mt-40 sm:mb-10 sm:text-[#fefae0]
+      
+      md:text-4xl md:font-bold md:mx-8 md:mt-40 md:mb-5 md:text-[#fefae0]
       
       lg:text-5xl lg:font-bold lg:mx-10 lg:mt-40 lg:mb-5 lg:text-[#fefae0]
       
       xl:text-5xl xl:font-bold xl:mx-10 xl:mt-40 xl:mb-5 xl:text-[#fefae0]
       
-      2xl:text-5xl 2xl:font-bold 2xl:mx-10 2xl:mt-40 2xl:mb-5 2xl:text-[#fefae0]' >&lt;PROJECTS /&gt;</h1>
+      2xl:text-5xl 2xl:font-bold 2xl:mx-12 2xl:mt-40 2xl:mb-5 2xl:text-[#fefae0]' >&lt;PROJECTS /&gt;</h1>
       
-      <div className='md:grid md:grid-cols-2 md:place-content-center md:place-items-center
+      <div className='grid grid-cols-1 gap-y-4 place-content-center place-items-center
+      
+      sm:grid sm:grid-cols-1 sm:gap-y-4 sm:place-content-center sm:place-items-center
+      
+      md:grid md:grid-cols-2 md:place-content-center md:place-items-center
       
       lg:grid lg:grid-cols-3 lg:place-content-center lg:place-items-center
       
