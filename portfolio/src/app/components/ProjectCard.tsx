@@ -10,7 +10,7 @@ function ProjectCard(props: {
 }) {
   return (
     // border-2 border-[#fefae0]
-    <div className='flex flex-row justify-center items-center rounded-xl transition-all ease-in hover:scale-105
+    <div className='flex flex-row justify-center items-center rounded-xl transition-all ease-in delay-75 hover:scale-105 
     
     sm:flex sm:flex-row sm:justify-center sm:items-center sm:rounded-xl sm:transition-all sm:ease-in sm:hover:scale-105
     

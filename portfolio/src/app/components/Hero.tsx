@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import TextTransition, { presets } from 'react-text-transition';
-import { ArrowBigDown } from 'lucide-react';
+import { ArrowBigDown, Route } from 'lucide-react';
 import Link from 'next/link';
 
 
@@ -348,18 +348,19 @@ function Hero() {
     <div className='h-[10%] flex justify-center items-center'>
         <Link href="/portfolio" id='navButton'>
          {/* absolute bottom-5 left-[46%] */}
-            <button className='mb-6 h-10 w-10 font-bold  text-lg text-black bg-[#c3a995] rounded-xl transition-all ease-in hover:bg-[#f0e2d3] hover:text-black hover:border-2 hover:border-[#fefae0] hover:cursor-none
+            <button className='mb-20 h-10 w-10 font-bold  text-lg text-black bg-[#f0e2d3] rounded-xl transition-all ease-in hover:bg-[#c3a995] hover:text-black hover:border-2 hover:border-[#c3a995] hover:cursor-none
             
-            sm:h-12 sm:w-12 sm:font-bold  sm:text-lg sm:text-black sm:bg-[#c3a995] sm:rounded-xl sm:transition-all sm:ease-in sm:hover:bg-[#f0e2d3] sm:hover:text-black sm:hover:border-2 sm:hover:border-[#fefae0] sm:hover:cursor-none
+            sm:h-12 sm:w-12 sm:font-bold  sm:text-lg sm:text-black sm:bg-[#f0e2d3] sm:rounded-xl sm:transition-all sm:ease-in sm:hover:bg-[#c3a995] sm:hover:text-black sm:hover:border-2 sm:hover:border-[#c3a995] sm:hover:cursor-none
             
-            md:h-12 md:w-12 md:font-bold  md:text-lg md:text-black md:bg-[#c3a995] md:rounded-xl md:transition-all md:ease-in md:hover:bg-[#f0e2d3] md:hover:text-black md:hover:border-2 md:hover:border-[#fefae0] md:hover:cursor-none
+            md:h-12 md:w-12 md:font-bold  md:text-lg md:text-black md:bg-[#f0e2d3] md:rounded-xl md:transition-all md:ease-in md:hover:bg-[#c3a995] md:hover:text-black md:hover:border-2 md:hover:border-[#c3a995] md:hover:cursor-none
             
-            lg:h-12 lg:w-12 lg:font-bold  lg:text-lg lg:text-black lg:bg-[#c3a995] lg:rounded-xl lg:transition-all lg:ease-in lg:hover:bg-[#f0e2d3] lg:hover:text-black lg:hover:border-2 lg:hover:border-[#fefae0] lg:hover:cursor-none
+            lg:h-12 lg:w-12 lg:font-bold  lg:text-lg lg:text-black lg:bg-[#f0e2d3] lg:rounded-xl lg:transition-all lg:ease-in lg:hover:bg-[#c3a995] lg:hover:text-black lg:hover:border-2 lg:hover:border-[#c3a995] lg:hover:cursor-none
             
-            xl:h-12 xl:w-12 xl:font-bold  xl:text-lg xl:text-black xl:bg-[#c3a995] xl:rounded-xl xl:transition-all xl:ease-in xl:hover:bg-[#f0e2d3] xl:hover:text-black xl:hover:border-2 xl:hover:border-[#fefae0] xl:hover:cursor-none
+            xl:h-12 xl:w-12 xl:font-bold  xl:text-lg xl:text-black xl:bg-[#f0e2d3] xl:rounded-xl xl:transition-all xl:ease-in xl:hover:bg-[#c3a995] xl:hover:text-black xl:hover:border-2 xl:hover:border-[#c3a995] xl:hover:cursor-none
             
-            2xl:h-12 2xl:w-12 2xl:font-bold  2xl:text-lg 2xl:text-black 2xl:bg-[#c3a995] 2xl:rounded-xl 2xl:transition-all 2xl:ease-in 2xl:hover:bg-[#f0e2d3] 2xl:hover:text-black 2xl:hover:border-2 2xl:hover:border-[#fefae0] 2xl:hover:cursor-none' >
-                <ArrowBigDown className='mx-auto' />
+            2xl:h-12 2xl:w-12 2xl:font-bold  2xl:text-lg 2xl:text-black 2xl:bg-[#f0e2d3] 2xl:rounded-xl 2xl:transition-all 2xl:ease-in 2xl:hover:bg-[#c3a995] 2xl:hover:text-black 2xl:hover:border-2 2xl:hover:border-[#c3a995] 2xl:hover:cursor-none' >
+                {/* <ArrowBigDown className='mx-auto' /> */}
+                <Route className='mx-auto'/>
             </button>
         </Link>
     </div>
