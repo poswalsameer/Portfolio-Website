@@ -15,7 +15,7 @@ function Contact() {
     
     xl:text-5xl xl:font-bold xl:mx-10 xl:mt-28 xl:mb-5 xl:text-[#fefae0]
     
-    2xl:text-5xl 2xl:font-bold 2xl:mx-12 2xl:mt-28 2xl:mb-5 2xl:text-[#fefae0]' id='contact'>
+    2xl:text-5xl 2xl:font-bold 2xl:mx-12 2xl:mt-0 2xl:mb-5 2xl:text-[#fefae0]' id='contact'>
         &lt;CONTACT /&gt;
     </h1>
 

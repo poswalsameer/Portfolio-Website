@@ -15,7 +15,7 @@ function Project() {
       
       xl:text-5xl xl:font-bold xl:mx-10 xl:mt-40 xl:mb-5 xl:text-[#fefae0]
       
-      2xl:text-5xl 2xl:font-bold 2xl:mx-12 2xl:mt-40 2xl:mb-5 2xl:text-[#fefae0]' >&lt;PROJECTS /&gt;</h1>
+      2xl:text-5xl 2xl:font-bold 2xl:mx-12 2xl:mt-0 2xl:mb-5 2xl:text-[#fefae0]' >&lt;PROJECTS /&gt;</h1>
       
       <div className='grid grid-cols-1 gap-y-4 place-content-center place-items-center
       

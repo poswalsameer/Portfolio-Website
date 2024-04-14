@@ -4,17 +4,17 @@ function Profile() {
   return (
     <div className='w-full sm:w-full md:w-full lg:w-full xl:w-full 2xl:w-full ' id='about'>
 
-    <h1 className='text-2xl font-bold mx-4 mt-40 mb-1 text-[#faf5f0]
+    <h1 className='text-2xl font-bold mx-4 mt-0 mb-0 text-[#faf5f0]
     
-    sm:text-4xl sm:font-bold sm:mx-6 sm:mt-40 sm:mb-1 sm:text-[#faf5f0]
+    sm:text-4xl sm:font-bold sm:mx-6 sm:mt-0 sm:mb-0 sm:text-[#faf5f0]
     
-    md:text-4xl md:font-bold md:mx-8 md:mt-40 md:mb-1 md:text-[#faf5f0]
+    md:text-4xl md:font-bold md:mx-8 md:mt-0 md:mb-0 md:text-[#faf5f0]
     
-    lg:text-5xl lg:font-bold lg:mx-10 lg:mt-40 lg:mb-5 lg:text-[#faf5f0]
+    lg:text-5xl lg:font-bold lg:mx-10 lg:mt-0 lg:mb-0 lg:text-[#faf5f0]
     
-    xl:text-5xl xl:font-bold xl:mx-10 xl:mt-40 xl:mb-5 xl:text-[#faf5f0]
+    xl:text-5xl xl:font-bold xl:mx-10 xl:mt-0 xl:mb-0 xl:text-[#faf5f0]
     
-    2xl:text-5xl 2xl:font-bold 2xl:mx-12 2xl:mt-40 2xl:mb-5 2xl:text-[#faf5f0]' >
+    2xl:text-5xl 2xl:font-bold 2xl:mx-12 2xl:mt-0 2xl:mb-0 2xl:text-[#faf5f0]' >
             &lt;WHO AM I /&gt;
     </h1>
 

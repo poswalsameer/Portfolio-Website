@@ -6,6 +6,7 @@ import Hero from "./components/Hero";
 import Profile from "./components/Profile";
 import Project from "./components/Project";
 import Skills from "./components/Skills";
+import Link from "next/link";
 
 
 export default function Home() {

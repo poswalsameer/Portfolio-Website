@@ -3,11 +3,14 @@
 import React, { useState, useEffect } from 'react';
 import TextTransition, { presets } from 'react-text-transition';
 import { ArrowBigDown } from 'lucide-react';
+import Link from 'next/link';
+
 
 
 const texts = ['Software', 'Frontend', 'Game'];
 
 function Hero() {
+
 
     const [index, setIndex] = useState(0);
 
@@ -343,8 +346,8 @@ function Hero() {
     </div>
 
     <div className='h-[10%] flex justify-center items-center'>
-        <a href="/about">
-        {/* absolute bottom-5 left-[46%] */}
+        <Link href="/portfolio" id='navButton'>
+         {/* absolute bottom-5 left-[46%] */}
             <button className='mb-6 h-10 w-10 font-bold  text-lg text-black bg-[#c3a995] rounded-xl transition-all ease-in hover:bg-[#f0e2d3] hover:text-black hover:border-2 hover:border-[#fefae0] hover:cursor-none
             
             sm:h-12 sm:w-12 sm:font-bold  sm:text-lg sm:text-black sm:bg-[#c3a995] sm:rounded-xl sm:transition-all sm:ease-in sm:hover:bg-[#f0e2d3] sm:hover:text-black sm:hover:border-2 sm:hover:border-[#fefae0] sm:hover:cursor-none
@@ -355,10 +358,10 @@ function Hero() {
             
             xl:h-12 xl:w-12 xl:font-bold  xl:text-lg xl:text-black xl:bg-[#c3a995] xl:rounded-xl xl:transition-all xl:ease-in xl:hover:bg-[#f0e2d3] xl:hover:text-black xl:hover:border-2 xl:hover:border-[#fefae0] xl:hover:cursor-none
             
-            2xl:h-12 2xl:w-12 2xl:font-bold  2xl:text-lg 2xl:text-black 2xl:bg-[#c3a995] 2xl:rounded-xl 2xl:transition-all 2xl:ease-in 2xl:hover:bg-[#f0e2d3] 2xl:hover:text-black 2xl:hover:border-2 2xl:hover:border-[#fefae0] 2xl:hover:cursor-none'>
+            2xl:h-12 2xl:w-12 2xl:font-bold  2xl:text-lg 2xl:text-black 2xl:bg-[#c3a995] 2xl:rounded-xl 2xl:transition-all 2xl:ease-in 2xl:hover:bg-[#f0e2d3] 2xl:hover:text-black 2xl:hover:border-2 2xl:hover:border-[#fefae0] 2xl:hover:cursor-none' >
                 <ArrowBigDown className='mx-auto' />
             </button>
-        </a>
+        </Link>
     </div>
 
     </div>
