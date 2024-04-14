@@ -5,17 +5,17 @@ function Skills() {
   return (
 
     <>
-        <h1 className='text-2xl font-bold mx-4 mt-0 mb-10 text-[#faf5f0]
+        <h1 className='text-2xl font-bold mx-2 mb-10 text-[#faf5f0]
         
-        sm:text-4xl sm:font-bold sm:mx-6 sm:mt-0 sm:mb-10 sm:text-[#faf5f0]
+        sm:text-4xl sm:font-bold sm:mx-6 sm:mb-10 sm:text-[#faf5f0]
         
-        md:text-4xl md:font-bold md:mx-8 md:mt-0 md:mb-10 md:text-[#faf5f0]
+        md:text-4xl md:font-bold md:mx-8 md:mb-10 md:text-[#faf5f0]
         
-        lg:text-5xl lg:font-bold lg:mx-10 lg:mt-0 lg:mb-10 lg:text-[#faf5f0]
+        lg:text-5xl lg:font-bold lg:mx-10 lg:mb-10 lg:text-[#faf5f0]
         
-        xl:text-5xl xl:font-bold xl:mx-10 xl:mt-0 xl:mb-10 xl:text-[#faf5f0]
+        xl:text-5xl xl:font-bold xl:mx-10 xl:mb-10 xl:text-[#faf5f0]
         
-        2xl:text-5xl 2xl:font-bold 2xl:mx-12 2xl:mt-0 2xl:mb-16 2xl:text-[#faf5f0]' id='skills'>
+        2xl:text-5xl 2xl:font-bold 2xl:mx-12 2xl:mb-16 2xl:text-[#faf5f0]' id='skills'>
             &lt;TECHNOLOGIES I KNOW /&gt;
         </h1>
 
@@ -36,7 +36,7 @@ function Skills() {
             
             sm:flex sm:flex-col sm:justify-center sm:items-center sm:h-32 sm:w-[93%] sm:border-2 sm:border-[#faf5f0] sm:border-opacity-40 sm:mx-10 sm:rounded-xl
             
-            md:flex md:flex-col md:justify-center md:items-center md:h-56 md:w-[90%] md:border-2 md:border-[#faf5f0] md:border-opacity-40 md:mx-10 md:rounded-xl
+            md:flex md:flex-col md:justify-center md:items-center md:h-48 md:w-[90%] md:border-2 md:border-[#faf5f0] md:border-opacity-40 md:mx-10 md:rounded-xl
             
             lg:flex lg:flex-col lg:justify-center lg:items-center lg:h-56 lg:w-[90%] lg:border-2 lg:border-[#faf5f0] lg:border-opacity-40 lg:mx-10 lg:rounded-xl
             
@@ -86,7 +86,7 @@ function Skills() {
             
             sm:flex sm:flex-col sm:justify-center sm:items-center sm:h-32 sm:w-[93%] sm:border-2 sm:border-[#faf5f0] sm:border-opacity-40 sm:mx-10 sm:rounded-xl
             
-            md:flex md:flex-col md:justify-center md:items-center md:h-56 md:w-[90%] md:border-2 md:border-[#faf5f0] md:border-opacity-40 md:mx-10 md:rounded-xl
+            md:flex md:flex-col md:justify-center md:items-center md:h-48 md:w-[90%] md:border-2 md:border-[#faf5f0] md:border-opacity-40 md:mx-10 md:rounded-xl
             
             lg:flex lg:flex-col lg:justify-center lg:items-center lg:h-56 lg:w-[90%] lg:border-2 lg:border-[#faf5f0] lg:border-opacity-40 lg:mx-10 lg:rounded-xl
             
@@ -135,7 +135,7 @@ function Skills() {
             
             sm:flex sm:flex-col sm:justify-center sm:items-center sm:h-32 sm:w-[93%] sm:border-2 sm:border-[#faf5f0] sm:border-opacity-40 sm:mx-10 sm:rounded-xl
             
-            md:flex md:flex-col md:justify-center md:items-center md:h-56 md:w-[90%] md:border-2 md:border-[#faf5f0] md:border-opacity-40 md:mx-10 md:rounded-xl
+            md:flex md:flex-col md:justify-center md:items-center md:h-48 md:w-[90%] md:border-2 md:border-[#faf5f0] md:border-opacity-40 md:mx-10 md:rounded-xl
             
             lg:flex lg:flex-col lg:justify-center lg:items-center lg:h-56 lg:w-[90%] lg:border-2 lg:border-[#faf5f0] lg:border-opacity-40 lg:mx-10 lg:rounded-xl
             
@@ -182,7 +182,7 @@ function Skills() {
             
             sm:flex sm:flex-col sm:justify-center sm:items-center sm:h-32 sm:w-[93%] sm:border-2 sm:border-[#faf5f0] sm:border-opacity-40 sm:mx-10 sm:rounded-xl
             
-            md:flex md:flex-col md:justify-center md:items-center md:h-56 md:w-[90%] md:border-2 md:border-[#faf5f0] md:border-opacity-40 md:mx-10 md:rounded-xl
+            md:flex md:flex-col md:justify-center md:items-center md:h-48 md:w-[90%] md:border-2 md:border-[#faf5f0] md:border-opacity-40 md:mx-10 md:rounded-xl
             
             lg:flex lg:flex-col lg:justify-center lg:items-center lg:h-56 lg:w-[90%] lg:border-2 lg:border-[#faf5f0] lg:border-opacity-40 lg:mx-10 lg:rounded-xl
             

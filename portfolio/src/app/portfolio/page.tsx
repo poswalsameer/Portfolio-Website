@@ -7,6 +7,8 @@ import Project from '../components/Project';
 import Contact from '../components/Contact';
 import {useEffect, useRef} from 'react';
 
+
+
 function page() {
 
     const circleRef = useRef<HTMLDivElement>(null);
@@ -78,24 +80,36 @@ function page() {
 
   return (
     <>
-    
+
+        {/* <div className='h-full w-full' id='container'> */}
+
         <div id="circle" ref={circleRef}></div>
 
-        <section className='h-screen w-full flex justify-center items-center bg-green-950'>
+        <section id='profileSection' className='w-full flex justify-center items-center  font-poppins'>
+            <div className='mx-4 my-24'>
             <Profile />
+            </div>
         </section>
 
-        <section className='h-screen w-full flex flex-col justify-center bg-blue-950'>
+        <section className='w-full flex flex-col justify-center  font-poppins'>
+            <div className='mx-2 my-24'>
             <Skills />
+            </div>
         </section>
 
-        <section className='w-full bg-red-950'>
+        <section className='w-full  font-poppins'>
+            <div className='mx-4 my-24'>
             <Project />
+            </div>
         </section>
  
-        <section className='h-screen w-full flex flex-col justify-center bg-black'>
+        <section className='w-full flex flex-col justify-center font-poppins'>
+            <div className='mx-2 my-2'>
             <Contact />
+            </div>
         </section>
+
+        {/* </div> */}
 
     </>
   )

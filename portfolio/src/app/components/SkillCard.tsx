@@ -6,7 +6,7 @@ function SkillCard(props: any) {
     
     sm:h-8 sm:w-12 sm:my-2 sm:bg-[#faf5f0] sm:bg-opacity-40 sm:flex sm:justify-center sm:items-center sm:rounded-lg sm:transition-all sm:ease-in sm:hover:scale-110 sm:hover:bg-opacity-90
     
-    md:h-12 md:w-16 md:my-2 md:bg-[#faf5f0] md:bg-opacity-40 md:flex md:justify-center md:items-center md:rounded-lg md:transition-all md:ease-in md:hover:scale-110 md:hover:bg-opacity-90
+    md:h-10 md:w-14 md:my-2 md:bg-[#faf5f0] md:bg-opacity-40 md:flex md:justify-center md:items-center md:rounded-lg md:transition-all md:ease-in md:hover:scale-110 md:hover:bg-opacity-90
     
     lg:h-14 lg:w-20 lg:my-2 lg:bg-[#faf5f0] lg:bg-opacity-40 lg:flex lg:justify-center lg:items-center lg:rounded-lg lg:transition-all lg:ease-in lg:hover:scale-110 lg:hover:bg-opacity-90
     

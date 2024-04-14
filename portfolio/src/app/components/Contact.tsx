@@ -5,15 +5,15 @@ function Contact() {
 
     <>
 
-    <h1 className='text-2xl font-bold mx-4 mt-28 mb-10 text-[#fefae0]
+    <h1 className='text-2xl font-bold mx-4 mt-0 mb-10 text-[#fefae0]
     
-    sm:text-4xl sm:font-bold sm:mx-6 sm:mt-28 sm:mb-10 sm:text-[#fefae0]
+    sm:text-4xl sm:font-bold sm:mx-6 sm:mt-0 sm:mb-10 sm:text-[#fefae0]
     
-    md:text-4xl md:font-bold md:mx-8 md:mt-28 md:mb-5 md:text-[#fefae0]
+    md:text-4xl md:font-bold md:mx-8 md:mt-0 md:mb-5 md:text-[#fefae0]
     
-    lg:text-5xl lg:font-bold lg:mx-10 lg:mt-28 lg:mb-5 lg:text-[#fefae0]
+    lg:text-5xl lg:font-bold lg:mx-10 lg:mt-0 lg:mb-5 lg:text-[#fefae0]
     
-    xl:text-5xl xl:font-bold xl:mx-10 xl:mt-28 xl:mb-5 xl:text-[#fefae0]
+    xl:text-5xl xl:font-bold xl:mx-10 xl:mt-0 xl:mb-5 xl:text-[#fefae0]
     
     2xl:text-5xl 2xl:font-bold 2xl:mx-12 2xl:mt-0 2xl:mb-5 2xl:text-[#fefae0]' id='contact'>
         &lt;CONTACT /&gt;
@@ -52,7 +52,7 @@ function Contact() {
 
         <div className='my-5 flex flex-col w-full justify-center items-center
         
-        sm:my-5 sm:flex sm:flex-row sm:w-full sm:justify-center sm:items-center
+        sm:my-5 sm:flex sm:flex-col sm:w-full sm:justify-center sm:items-center
         
         md:my-5 md:flex md:flex-row md:w-full md:justify-center md:items-center
         
@@ -64,11 +64,11 @@ function Contact() {
             
             <div className='bg-[#faf5f0] text-[#1e1b17] text-xs flex flex-row my-2 p-2 justify-center items-center font-bold w-[50%] rounded-lg transition-all ease-in hover:scale-105
             
-            sm:bg-[#faf5f0] sm:text-[#1e1b17] sm:text-sm sm:flex sm:flex-row sm:mr-3 sm:p-2 sm:justify-center sm:items-center sm:font-bold sm:w-[30%] sm:rounded-lg sm:transition-all sm:ease-in sm:hover:scale-105
+            sm:bg-[#faf5f0] sm:text-[#1e1b17] sm:text-sm sm:flex sm:flex-row sm:mr-0 sm:p-2 sm:justify-center sm:items-center sm:font-bold sm:w-[40%] sm:rounded-lg sm:transition-all sm:ease-in sm:hover:scale-105
             
-            md:bg-[#faf5f0] md:text-[#1e1b17] md:text-sm md:flex md:flex-row md:mr-3 md:p-2 md:justify-center md:items-center md:font-bold md:w-[30%] md:rounded-lg md:transition-all md:ease-in md:hover:scale-105
+            md:bg-[#faf5f0] md:text-[#1e1b17] md:text-sm md:flex md:flex-row md:mr-3 md:p-2 md:justify-center md:items-center md:font-bold md:w-[35%] md:rounded-lg md:transition-all md:ease-in md:hover:scale-105
             
-            lg:bg-[#faf5f0] lg:text-[#1e1b17] lg:text-sm lg:flex lg:flex-row lg:mr-3 lg:p-2 lg:justify-center lg:items-center lg:font-bold lg:w-[20%] lg:rounded-lg lg:transition-all lg:ease-in lg:hover:scale-105
+            lg:bg-[#faf5f0] lg:text-[#1e1b17] lg:text-sm lg:flex lg:flex-row lg:mr-3 lg:p-2 lg:justify-center lg:items-center lg:font-bold lg:w-[30%] lg:rounded-lg lg:transition-all lg:ease-in lg:hover:scale-105
             
             xl:bg-[#faf5f0] xl:text-[#1e1b17] xl:text-sm xl:flex xl:flex-row xl:mr-3 xl:p-2 xl:justify-center xl:items-center xl:font-bold xl:w-[20%] xl:rounded-xl xl:transition-all xl:ease-in xl:hover:scale-105
             
@@ -83,7 +83,7 @@ function Contact() {
 
             <div className='bg-[#faf5f0] text-[#1e1b17] text-xs flex flex-row justify-center items-center p-2 rounded-lg font-bold transition-all ease-in hover:scale-105
             
-            sm:bg-[#faf5f0] sm:text-[#1e1b17] sm:text-sm sm:flex sm:flex-row sm:justify-center sm:items-center sm:ml-3 sm:p-2 sm:rounded-lg sm:font-bold sm:transition-all sm:ease-in sm:hover:scale-105
+            sm:bg-[#faf5f0] sm:text-[#1e1b17] sm:text-sm sm:flex sm:flex-row sm:justify-center sm:items-center sm:ml-0 sm:p-2 sm:rounded-lg sm:font-bold sm:transition-all sm:ease-in sm:hover:scale-105
             
             md:bg-[#faf5f0] md:text-[#1e1b17] md:text-sm md:flex md:flex-row md:justify-center md:items-center md:ml-3 md:p-2 md:rounded-lg md:font-bold md:transition-all md:ease-in md:hover:scale-105
             
@@ -116,7 +116,7 @@ function Contact() {
         
         2xl:my-5 2xl:flex 2xl:flex-col 2xl:justify-center 2xl:items-center'>
             <p className='text-xs sm:text-base'>
-                FEEL FREE TO REACH OUT TO ME USING THESE DETAILS OR BY THE SOCIAL LINKS ATTACHED IN THE UPPER SECTION
+                FEEL FREE TO REACH OUT TO ME USING THESE DETAILS OR BY THE SOCIAL LINKS ATTACHED 
             </p>
         </div>
       

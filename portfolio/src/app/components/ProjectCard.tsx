@@ -29,7 +29,7 @@ function ProjectCard(props: {
           
           md:h-64 md:w-[19.5rem] md:rounded-t-xl md:rounded-bl-none md:rounded-br-none
           
-          lg:h-60 lg:w-[19.5rem] lg:rounded-t-xl
+          lg:h-60 lg:w-[18rem] lg:rounded-t-xl
           
           xl:h-72 xl:w-[24rem] xl:rounded-t-xl
           
@@ -42,7 +42,7 @@ function ProjectCard(props: {
         
         md:p-4 md:flex md:flex-col md:justify-center md:items-center md:bg-[#c3a995] md:h-44 md:w-[19.5rem] md:rounded-b-xl md:rounded-tr-none
         
-        lg:p-4 lg:flex lg:flex-col lg:justify-center lg:items-center lg:bg-[#c3a995] lg:h-56 lg:w-[19.5rem] lg:rounded-b-xl
+        lg:p-4 lg:flex lg:flex-col lg:justify-center lg:items-center lg:bg-[#c3a995] lg:h-56 lg:w-[18rem] lg:rounded-b-xl
         
         xl:p-4 xl:flex xl:flex-col xl:justify-center xl:items-center xl:bg-[#c3a995] xl:h-56 xl:w-[24rem] xl:rounded-b-xl
         

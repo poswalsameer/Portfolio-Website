@@ -4,7 +4,7 @@ function Profile() {
   return (
     <div className='w-full sm:w-full md:w-full lg:w-full xl:w-full 2xl:w-full ' id='about'>
 
-    <h1 className='text-2xl font-bold mx-4 mt-0 mb-0 text-[#faf5f0]
+    <h1 className='text-2xl font-bold mx-2 mt-0 mb-0 text-[#faf5f0]
     
     sm:text-4xl sm:font-bold sm:mx-6 sm:mt-0 sm:mb-0 sm:text-[#faf5f0]
     
