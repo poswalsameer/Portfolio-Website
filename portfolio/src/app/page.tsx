@@ -78,37 +78,58 @@ export default function Home() {
 
 
   //conditional rendering
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  const [windowWidth, setWindowWidth] = useState<number>(
+    typeof window !== 'undefined' ? window.innerWidth : 0
+  );
 
   useEffect(() => {
     const handleResize = () => {
       setWindowWidth(window.innerWidth);
     };
 
-    window.addEventListener('resize', handleResize);
+    if (typeof window !== 'undefined') {
+      window.addEventListener('resize', handleResize);
 
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
+      return () => {
+        window.removeEventListener('resize', handleResize);
+      };
+    }
   }, []);
+
+
+
+  // const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  // useEffect(() => {
+  //   const handleResize = () => {
+  //     setWindowWidth(window.innerWidth);
+  //   };
+
+  //   window.addEventListener('resize', handleResize);
+
+  //   return () => {
+  //     window.removeEventListener('resize', handleResize);
+  //   };
+  // }, []);
 
   return (
       
     <>
         
-        <div className="h-screen w-full font-poppins ">
+        <div className="h-screen w-full flex flex-col justify-center items-center font-poppins ">
 
         <div id="circle" ref={circleRef}></div>
 
-        {windowWidth > 767 && (
+        {/* {windowWidth > 767 && (
           <Header />
-        )}
+        )} */}
 
-        <Hero />
-        <Profile />
+          <Hero />
+        {/* <Profile />
         <Skills />
         <Project />
-        <Contact />
+        <Contact /> */}
 
         </div>
         
