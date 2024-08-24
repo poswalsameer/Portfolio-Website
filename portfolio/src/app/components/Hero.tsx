@@ -173,7 +173,7 @@ function Hero() {
                 2xl:bg-[#f0e2d3] 2xl:p-2 2xl:rounded-xl 2xl:h-12 2xl:w-12 2xl:border-2 2xl:border-[#f0e2d3] 2xl:mx-4 2xl:transition-all 2xl:ease-in 2xl:hover:scale-110 2xl:hover:cursor-none'/></a>
             </div>
 
-            <a href="SameerPoswalResume.pdf" download>
+            <a href="Sameer-Poswal-Resume.pdf" download>
                 <button className='h-10 w-36 flex flex-row justify-center items-center font-bold text-lg text-black bg-[#c3a995] rounded-lg  transition-all ease-in hover:bg-[#f0e2d3] hover:text-black hover:border-2 hover:border-[#fefae0] hover:cursor-none my-3
                 
                 sm:h-12 sm:w-40 sm:flex sm:flex-row sm:justify-center sm:items-center sm:font-bold sm:text-lg sm:text-black sm:bg-[#c3a995] sm:rounded-xl sm:transition-all sm:ease-in sm:hover:bg-[#f0e2d3] sm:hover:text-black sm:hover:border-2 sm:hover:border-[#fefae0] sm:hover:cursor-none sm:my-3
