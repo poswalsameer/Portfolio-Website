@@ -38,9 +38,12 @@ function Profile() {
             
             lg:p-2 lg:text-left lg:text-base lg:font-medium lg:h-[50%] lg:w-[70%] lg:mr-7
             
-            xl:p-2 xl:text-left xl:text-lg xl:font-medium xl:h-[50%] xl:w-[70%] xl:mr-7
+            xl:p-2 xl:text-left xl:text-base xl:font-medium xl:h-[50%] xl:w-[70%] xl:mr-7
             
-            2xl:p-2 2xl:text-left 2xl:text-xl 2xl:font-medium 2xl:h-[60%] 2xl:w-[70%] 2xl:mr-7'>
+            2xl:p-2 2xl:text-left 2xl:text-base 2xl:font-medium 2xl:h-[60%] 2xl:w-[70%] 2xl:mr-7'
+            
+            id='aboutTextDiv'
+            >
 
                 <p className='my-2 sm:my-3 md:my-3 lg:my-5 xl:my-5 2xl:my-5'>
                   Embarking on a programming journey at 15, I discovered my boundless passion for crafting exceptional software which started with the fascination of ' HOW CAN I MAKE THESE THINGS WHICH I USE DAILY? '

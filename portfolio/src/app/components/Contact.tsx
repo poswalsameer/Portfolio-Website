@@ -72,7 +72,7 @@ function Contact() {
             
             xl:bg-[#faf5f0] xl:text-[#1e1b17] xl:text-sm xl:flex xl:flex-row xl:mr-3 xl:p-2 xl:justify-center xl:items-center xl:font-bold xl:w-[20%] xl:rounded-xl xl:transition-all xl:ease-in xl:hover:scale-105
             
-            2xl:bg-[#faf5f0] 2xl:text-[#1e1b17] 2xl:text-sm 2xl:flex 2xl:flex-row 2xl:mr-3 2xl:p-2 2xl:justify-center 2xl:items-center 2xl:font-bold 2xl:w-[20%] 2xl:rounded-xl 2xl:transition-all 2xl:ease-in 2xl:hover:scale-105'>
+            2xl:bg-[#faf5f0] 2xl:text-[#1e1b17] 2xl:text-sm 2xl:flex 2xl:flex-row 2xl:mr-3 2xl:p-3 2xl:justify-center 2xl:items-center 2xl:font-bold 2xl:w-[20%] 2xl:rounded-md 2xl:transition-all 2xl:ease-in 2xl:hover:scale-105'>
 
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="mx-3 lucide lucide-phone"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
                 
@@ -91,7 +91,7 @@ function Contact() {
             
             xl:bg-[#faf5f0] xl:text-[#1e1b17] xl:text-sm xl:flex xl:flex-row xl:justify-center xl:items-center xl:ml-3 xl:p-2 xl:rounded-xl xl:font-bold xl:transition-all xl:ease-in xl:hover:scale-105
             
-            2xl:bg-[#faf5f0] 2xl:text-[#1e1b17] 2xl:text-sm 2xl:flex 2xl:flex-row 2xl:justify-center 2xl:items-center 2xl:ml-3 2xl:p-2 2xl:rounded-xl 2xl:font-bold 2xl:transition-all 2xl:ease-in 2xl:hover:scale-105'>
+            2xl:bg-[#faf5f0] 2xl:text-[#1e1b17] 2xl:text-sm 2xl:flex 2xl:flex-row 2xl:justify-center 2xl:items-center 2xl:ml-3 2xl:p-3 2xl:rounded-md 2xl:font-bold 2xl:transition-all 2xl:ease-in 2xl:hover:scale-105'>
 
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className=" mx-3 lucide lucide-mail"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
 
