@@ -10,17 +10,13 @@ function ProjectCard(props: {
 }) {
   return (
     // border-2 border-[#fefae0]
-    <div className='flex flex-row justify-center items-center rounded-xl transition-all ease-in delay-75 hover:scale-105 
-    
-    sm:flex sm:flex-row sm:justify-center sm:items-center sm:rounded-xl sm:transition-all sm:ease-in sm:hover:scale-105
-    
-    md:flex md:flex-col md:rounded-xl md:transition-all md:ease-in md:hover:scale-105
-    
-    lg:flex lg:flex-col lg:rounded-xl lg:transition-all lg:ease-in lg:hover:scale-105
-    
-    xl:flex xl:flex-col xl:rounded-xl xl:transition-all xl:ease-in xl:hover:scale-105
-    
-    2xl:flex 2xl:flex-col 2xl:rounded-xl 2xl:transition-all 2xl:ease-in 2xl:hover:scale-105 ' >
+    <div className='
+    flex flex-row justify-center items-center rounded-xl 
+    sm:flex sm:flex-row sm:justify-center sm:items-center sm:rounded-xl 
+    md:flex md:flex-col md:rounded-xl 
+    lg:flex lg:flex-col lg:rounded-xl 
+    xl:flex xl:flex-col xl:rounded-xl
+    2xl:flex 2xl:flex-col 2xl:rounded-xl  ' >
 
         <div>
           <img src={props.projectImage} alt="" className='h-28 w-[6rem] rounded-l-xl

@@ -29,6 +29,43 @@ function Project() {
       
       2xl:grid 2xl:grid-cols-3 2xl:place-content-center 2xl:place-items-center' id='projects'>
 
+      <div className='
+        md:ml-10 md:mr-5
+        lg:ml-10 lg:mr-5
+        xl:ml-10 xl:mr-5  
+        2xl:ml-10 2xl:mr-5'> 
+
+          <ProjectCard projectImage="mines-Image.jpeg" projectName="MineRush" techUsed="Next.js, TypeScript, Tailwind CSS, ShadCN" liveLink='https://minerush.vercel.app/' github="https://github.com/poswalsameer/MineRush" /> 
+
+      </div>
+
+      {/* DIGITAL INK */}
+      <div className='md:ml-5 md:mr-5
+        
+        lg:ml-10 lg:mr-5
+        
+        xl:ml-10 xl:mr-5 
+        
+        2xl:ml-10 2xl:mr-5'>
+
+          <ProjectCard projectImage='sign.jpg' projectName='Digital Ink' techUsed='NextJS, JavaScript, HTML Canvas, Tailwind CSS' liveLink='https://digitalinknew.vercel.app/' github="https://github.com/poswalsameer/DigitalInk"/>
+          
+      </div>
+
+      {/* TYPE MASTER */}
+      <div className='md:m-10 md:mr-5
+        
+        lg:m-10
+        
+        xl:m-10 
+        
+        2xl:m-10'>
+
+          <ProjectCard projectImage='typing.jpg' projectName='TypeMaster' techUsed='ReactJS, Tailwind CSS, NPM Packages' liveLink='https://typemaster-typingtest.netlify.app/' github="https://github.com/poswalsameer/TypeMaster"/>
+          
+      </div>
+
+      {/* TUNIFY MUSIC */}
         <div className='md:ml-10 md:mr-5
         
         lg:ml-10 lg:mr-5
@@ -41,18 +78,7 @@ function Project() {
 
         </div>
 
-        <div className='md:m-10 
-        
-        lg:m-10 
-        
-        xl:m-10 
-        
-        2xl:m-10'>
-
-          <ProjectCard projectImage='notesync.jpg' projectName='Note-Sync' techUsed='JSX, ReactJS, Redux, Tailwind CSS, JavaScript Local Storage' liveLink='https://notesync01.netlify.app/' github="https://github.com/poswalsameer/NoteSync" />
-
-        </div>
-
+      {/* NITRO SYNC */}
         <div className='md:mr-0 md:ml-5
         
         lg:mr-10 lg:ml-5 
@@ -65,30 +91,7 @@ function Project() {
 
         </div>
 
-        <div className='md:ml-5 md:mr-5
-        
-        lg:ml-10 lg:mr-5
-        
-        xl:ml-10 xl:mr-5 
-        
-        2xl:ml-10 2xl:mr-5'>
-
-          <ProjectCard projectImage='sign.jpg' projectName='Digital Ink' techUsed='NextJS, ReactJS, HTML Canvas, Tailwind CSS' liveLink='https://digitalinknew.vercel.app/' github="https://github.com/poswalsameer/DigitalInk"/>
-          
-        </div>
-
-        <div className='md:m-10 md:mr-5
-        
-        lg:m-10
-        
-        xl:m-10 
-        
-        2xl:m-10'>
-
-          <ProjectCard projectImage='typing.jpg' projectName='TypeMaster' techUsed='ReactJS, Tailwind CSS, NPM Packages' liveLink='https://typemaster-typingtest.netlify.app/' github="https://github.com/poswalsameer/TypeMaster"/>
-          
-        </div>
-
+      {/* FLYING NEMO */}
         <div className='md:mr-5 md:ml-5
         
         lg:mr-10 lg:ml-5
@@ -97,10 +100,24 @@ function Project() {
         
         2xl:mr-10 2xl:ml-5'>
 
-          <ProjectCard projectImage='nemo.jpg' projectName='Flying Nemo' techUsed='Unity Game Engine, C#' liveLink='https://sameerposwal.itch.io/flying-nemo' github="https://github.com/poswalsameer/Flying-Nemo" />
+          <ProjectCard projectImage='flyingNemo.png' projectName='Flying Nemo' techUsed='Unity Game Engine, C#' liveLink='https://sameerposwal.itch.io/flying-nemo' github="https://github.com/poswalsameer/Flying-Nemo" />
           
         </div>
 
+      {/* NOTE SYNC */}
+      <div className='md:m-10 
+        
+        lg:m-10 
+        
+        xl:m-10 
+        
+        2xl:m-10'>
+
+          <ProjectCard projectImage='notesync.jpg' projectName='Note-Sync' techUsed='JSX, ReactJS, Redux, Tailwind CSS, JavaScript Local Storage' liveLink='https://notesync01.netlify.app/' github="https://github.com/poswalsameer/NoteSync" />
+
+      </div>
+      
+      {/* KEYFORGE */}
         <div className='md:ml-10 md:mr-5
         
         lg:ml-10 lg:mr-5
@@ -113,6 +130,7 @@ function Project() {
           
         </div>
 
+      {/* TIC TAC TOE */}
         <div className='md:m-10
         
         lg:m-10
@@ -125,6 +143,7 @@ function Project() {
           
         </div>
 
+      {/* ENCUENTRO */}
         <div className='md:mr-0 md:ml-5
         
         lg:mr-10 lg:ml-5
