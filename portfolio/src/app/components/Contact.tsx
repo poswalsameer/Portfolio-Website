@@ -47,15 +47,15 @@ function Contact() {
             
             <div className='
             
-            bg-[#faf5f0] text-[#1e1b17] text-xs flex flex-row my-2 p-2 justify-center items-center font-bold w-[50%] rounded-lg transition-all ease-in hover:scale-105
+            bg-[#faf5f0] text-[#1e1b17] text-xs flex flex-row my-3 p-2 justify-center items-center font-bold w-[50%] rounded-md transition-all ease-in hover:scale-105
             
-            sm:bg-[#faf5f0] sm:text-[#1e1b17] sm:text-sm sm:flex sm:flex-row sm:mr-0 sm:p-2 sm:justify-center sm:items-center sm:font-bold sm:w-[40%] sm:rounded-lg sm:transition-all sm:ease-in sm:hover:scale-105
+            sm:bg-[#faf5f0] sm:text-[#1e1b17] sm:text-sm sm:flex sm:flex-row sm:mr-0 sm:p-2 sm:justify-center sm:items-center sm:font-bold sm:w-[40%] sm:rounded-md sm:transition-all sm:ease-in sm:hover:scale-105
             
-            md:bg-[#faf5f0] md:text-[#1e1b17] md:text-sm md:flex md:flex-row md:mr-3 md:p-2 md:justify-center md:items-center md:font-bold md:w-[35%] md:rounded-lg md:transition-all md:ease-in md:hover:scale-105
+            md:bg-[#faf5f0] md:text-[#1e1b17] md:text-sm md:flex md:flex-row md:mr-3 md:p-2 md:justify-center md:items-center md:font-bold md:w-[35%] md:rounded-md md:transition-all md:ease-in md:hover:scale-105
             
             lg:bg-[#faf5f0] lg:text-[#1e1b17] lg:text-sm lg:flex lg:flex-row lg:mr-3 lg:p-2 lg:justify-center lg:items-center lg:font-bold lg:w-[30%] lg:rounded-lg lg:transition-all lg:ease-in lg:hover:scale-105
             
-            xl:bg-[#faf5f0] xl:text-[#1e1b17] xl:text-sm xl:flex xl:flex-row xl:mr-3 xl:p-2 xl:justify-center xl:items-center xl:font-bold xl:w-[20%] xl:rounded-xl xl:transition-all xl:ease-in xl:hover:scale-105
+            xl:bg-[#faf5f0] xl:text-[#1e1b17] xl:text-sm xl:flex xl:flex-row xl:mr-3 xl:p-2 xl:justify-center xl:items-center xl:font-bold xl:w-[20%] xl:rounded-lg xl:transition-all xl:ease-in xl:hover:scale-105
             
             2xl:bg-[#faf5f0] 2xl:text-[#1e1b17] 2xl:text-sm 2xl:flex 2xl:flex-row 2xl:mr-3 2xl:p-3 2xl:justify-center 2xl:items-center 2xl:font-bold 2xl:w-[20%] 2xl:rounded-md 2xl:transition-all 2xl:ease-in 2xl:hover:scale-105'>
 
@@ -66,15 +66,15 @@ function Contact() {
                 </p>
             </div>
 
-            <div className='bg-[#faf5f0] text-[#1e1b17] text-xs flex flex-row justify-center items-center p-2 rounded-lg font-bold transition-all ease-in hover:scale-105
+            <div className='bg-[#faf5f0] text-[#1e1b17] text-xs flex flex-row justify-center items-center p-2 rounded-md font-bold transition-all ease-in hover:scale-105
             
-            sm:bg-[#faf5f0] sm:text-[#1e1b17] sm:text-sm sm:flex sm:flex-row sm:justify-center sm:items-center sm:ml-0 sm:p-2 sm:rounded-lg sm:font-bold sm:transition-all sm:ease-in sm:hover:scale-105
+            sm:bg-[#faf5f0] sm:text-[#1e1b17] sm:text-sm sm:flex sm:flex-row sm:justify-center sm:items-center sm:ml-0 sm:p-2 sm:rounded-md sm:font-bold sm:transition-all sm:ease-in sm:hover:scale-105
             
-            md:bg-[#faf5f0] md:text-[#1e1b17] md:text-sm md:flex md:flex-row md:justify-center md:items-center md:ml-3 md:p-2 md:rounded-lg md:font-bold md:transition-all md:ease-in md:hover:scale-105
+            md:bg-[#faf5f0] md:text-[#1e1b17] md:text-sm md:flex md:flex-row md:justify-center md:items-center md:ml-3 md:p-2 md:rounded-md md:font-bold md:transition-all md:ease-in md:hover:scale-105
             
             lg:bg-[#faf5f0] lg:text-[#1e1b17] lg:text-sm lg:flex lg:flex-row lg:justify-center lg:items-center lg:ml-3 lg:p-2 lg:rounded-lg lg:font-bold lg:transition-all lg:ease-in lg:hover:scale-105
             
-            xl:bg-[#faf5f0] xl:text-[#1e1b17] xl:text-sm xl:flex xl:flex-row xl:justify-center xl:items-center xl:ml-3 xl:p-2 xl:rounded-xl xl:font-bold xl:transition-all xl:ease-in xl:hover:scale-105
+            xl:bg-[#faf5f0] xl:text-[#1e1b17] xl:text-sm xl:flex xl:flex-row xl:justify-center xl:items-center xl:ml-3 xl:p-2 xl:rounded-lg xl:font-bold xl:transition-all xl:ease-in xl:hover:scale-105
             
             2xl:bg-[#faf5f0] 2xl:text-[#1e1b17] 2xl:text-sm 2xl:flex 2xl:flex-row 2xl:justify-center 2xl:items-center 2xl:ml-3 2xl:p-3 2xl:rounded-md 2xl:font-bold 2xl:transition-all 2xl:ease-in 2xl:hover:scale-105'>
 

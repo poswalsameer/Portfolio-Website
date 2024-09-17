@@ -54,7 +54,7 @@ function Profile() {
             <div className='
               my-3 h-[50%] w-[50%] 
               sm:my-3 sm:h-[50%] sm:w-[50%]
-              md:h-[330px] md:w-[46%]
+              md:h-[310px] md:w-[50%]
               lg:h-[350px] lg:w-[40%]
               xl:h-full xl:w-[30%]
               2xl:h-full 2xl:w-[30%] '>

@@ -15,148 +15,47 @@ function Project() {
       
       xl:text-5xl xl:font-bold xl:mx-10 xl:mb-5 xl:text-[#fefae0]
       
-      2xl:text-5xl 2xl:font-bold 2xl:mx-12 ]2xl:mb-5 2xl:text-[#fefae0]' >&lt;PROJECTS /&gt;</h1>
+      2xl:text-5xl 2xl:font-bold 2xl:mx-12 ]2xl:mb-5 2xl:text-[#fefae0]' >
+        &lt;PROJECTS /&gt;
+      </h1>
       
-      <div className='grid grid-cols-1 gap-y-4 place-content-center place-items-center
-      
-      sm:grid sm:grid-cols-1 sm:gap-y-4 sm:place-content-center sm:place-items-center
-      
-      md:grid md:grid-cols-2 md:place-content-center md:place-items-center
-      
-      lg:grid lg:grid-cols-3 lg:place-content-center lg:place-items-center
-      
-      xl:grid xl:grid-cols-3 xl:place-content-center xl:place-items-center
-      
-      2xl:grid 2xl:grid-cols-3 2xl:place-content-center 2xl:place-items-center' id='projects'>
-
       <div className='
-        md:ml-10 md:mr-5
-        lg:ml-10 lg:mr-5
-        xl:ml-10 xl:mr-5  
-        2xl:ml-10 2xl:mr-5'> 
+      mt-3 h-full w-full flex justify-center items-center
+      sm:mt-10 sm:h-full sm:w-full sm:flex sm:justify-center sm:items-center
+      md:mt-10 md:h-full md:w-full md:flex md:justify-center md:items-center
+      lg:mt-10 lg:h-full lg:w-full lg:flex lg:justify-center lg:items-center
+      xl:mt-10 xl:h-full xl:w-full xl:flex xl:justify-center xl:items-center
+      2xl:mt-10 2xl:h-full 2xl:w-full 2xl:flex 2xl:justify-center 2xl:items-center'>
+
+        <div className=' 
+        w-[85%] grid grid-cols-1 gap-x-0 gap-y-2
+        sm:w-[85%] sm:grid sm:grid-cols-1 sm:gap-x-0 sm:gap-y-4
+        md:w-[90%] md:grid md:grid-cols-2 md:gap-x-0 md:gap-y-8
+        lg:w-[93%] lg:grid lg:grid-cols-3 lg:gap-x-0 lg:gap-y-8
+        xl:w-[100%] xl:grid xl:grid-cols-3 xl:gap-x-0 xl:gap-y-8
+        2xl:w-[85%] 2xl:grid 2xl:grid-cols-3 2xl:gap-x-0 2xl:gap-y-8'>
 
           <ProjectCard projectImage="mines-Image.jpeg" projectName="MineRush" techUsed="Next.js, TypeScript, Tailwind CSS, ShadCN" liveLink='https://minerush.vercel.app/' github="https://github.com/poswalsameer/MineRush" /> 
 
-      </div>
-
-      {/* DIGITAL INK */}
-      <div className='md:ml-5 md:mr-5
-        
-        lg:ml-10 lg:mr-5
-        
-        xl:ml-10 xl:mr-5 
-        
-        2xl:ml-10 2xl:mr-5'>
-
           <ProjectCard projectImage='sign.jpg' projectName='Digital Ink' techUsed='NextJS, JavaScript, HTML Canvas, Tailwind CSS' liveLink='https://digitalinknew.vercel.app/' github="https://github.com/poswalsameer/DigitalInk"/>
-          
-      </div>
-
-      {/* TYPE MASTER */}
-      <div className='md:m-10 md:mr-5
-        
-        lg:m-10
-        
-        xl:m-10 
-        
-        2xl:m-10'>
 
           <ProjectCard projectImage='typing.jpg' projectName='TypeMaster' techUsed='ReactJS, Tailwind CSS, NPM Packages' liveLink='https://typemaster-typingtest.netlify.app/' github="https://github.com/poswalsameer/TypeMaster"/>
-          
-      </div>
 
-      {/* TUNIFY MUSIC */}
-        <div className='md:ml-10 md:mr-5
-        
-        lg:ml-10 lg:mr-5
-        
-        xl:ml-10 xl:mr-5
-        
-        2xl:ml-10 2xl:mr-5'> 
+          <ProjectCard projectImage="music.jpg" projectName="Tunify Music" techUsed="HTML, Tailwind CSS, JavaScript, Google Firebase, NodeJS" liveLink='https://tunifymusic.netlify.app/musiclibrary' github="https://github.com/poswalsameer/Tunify-Music" />
 
-          <ProjectCard projectImage="music.jpg" projectName="Tunify Music" techUsed="HTML, Tailwind CSS, JavaScript, Google Firebase, NodeJS" liveLink='https://tunifymusic.netlify.app/musiclibrary' github="https://github.com/poswalsameer/Tunify-Music" /> 
-
-        </div>
-
-      {/* NITRO SYNC */}
-        <div className='md:mr-0 md:ml-5
-        
-        lg:mr-10 lg:ml-5 
-        
-        xl:mr-10 xl:ml-5 
-        
-        2xl:mr-10 2xl:ml-5'>
-
-          <ProjectCard projectImage='nitro.jpg' projectName='Nitro Dash' techUsed='Unity Game Engine, C#' liveLink='https://sameerposwal.itch.io/nitro-dash' github="https://github.com/poswalsameer/Nitro-Dash" />
-
-        </div>
-
-      {/* FLYING NEMO */}
-        <div className='md:mr-5 md:ml-5
-        
-        lg:mr-10 lg:ml-5
-        
-        xl:mr-10 xl:ml-5 
-        
-        2xl:mr-10 2xl:ml-5'>
+          <ProjectCard projectImage='nitro.jpg' projectName='Nitro Dash' techUsed='Unity Game Engine, C#' liveLink='https://sameerposwal.itch.io/nitro-dash' github="https://github.com/poswalsameer/Nitro-Dash" /> 
 
           <ProjectCard projectImage='flyingNemo.png' projectName='Flying Nemo' techUsed='Unity Game Engine, C#' liveLink='https://sameerposwal.itch.io/flying-nemo' github="https://github.com/poswalsameer/Flying-Nemo" />
-          
-        </div>
-
-      {/* NOTE SYNC */}
-      <div className='md:m-10 
-        
-        lg:m-10 
-        
-        xl:m-10 
-        
-        2xl:m-10'>
 
           <ProjectCard projectImage='notesync.jpg' projectName='Note-Sync' techUsed='JSX, ReactJS, Redux, Tailwind CSS, JavaScript Local Storage' liveLink='https://notesync01.netlify.app/' github="https://github.com/poswalsameer/NoteSync" />
 
-      </div>
-      
-      {/* KEYFORGE */}
-        <div className='md:ml-10 md:mr-5
-        
-        lg:ml-10 lg:mr-5
-        
-        xl:ml-10 xl:mr-5 
-        
-        2xl:ml-10 2xl:mr-5'>
-
           <ProjectCard projectImage='pass.jpg' projectName='KeyForge' techUsed=' JavaScript, ReactJS, Tailwind CSS, JSX' liveLink='https://keyforge-passwordgenerator.netlify.app/' github="https://github.com/poswalsameer/KeyForge"/>
-          
-        </div>
-
-      {/* TIC TAC TOE */}
-        <div className='md:m-10
-        
-        lg:m-10
-        
-        xl:m-10
-        
-        2xl:m-10'>
 
           <ProjectCard projectImage='tic.jpg' projectName='Tic Tac Tango' techUsed='HTML, Tailwind CSS, JavaScript' liveLink='https://tictactango.netlify.app/' github="https://github.com/poswalsameer/Tic-Tac-Toe"/>
-          
-        </div>
-
-      {/* ENCUENTRO */}
-        <div className='md:mr-0 md:ml-5
-        
-        lg:mr-10 lg:ml-5
-        
-        xl:mr-10 xl:ml-5
-        
-        2xl:mr-10 2xl:ml-5'>
 
           <ProjectCard projectImage='encuentro.png' projectName='Encuentro 2k24' techUsed='HTML, Tailwind CSS, JavaScript, Google Sheets' liveLink='https://encuentro2k24.netlify.app/' github="https://github.com/poswalsameer/ieee-regn-page" />
-          
+
         </div>
-
-
       </div>
 
     </>
