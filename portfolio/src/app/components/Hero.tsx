@@ -8,7 +8,6 @@ import Typewriter from 'typewriter-effect';
 import Link from 'next/link';
 
 
-
 const texts = ['Software', 'Frontend', 'Game'];
 
 function Hero() {
@@ -130,7 +129,7 @@ function Hero() {
                     2xl:bg-[#f0e2d3] 2xl:p-2 2xl:rounded-lg 2xl:h-12 2xl:w-12 2xl:border-2 2xl:border-[#f0e2d3] 2xl:mx-3 2xl:transition-all 2xl:ease-in 2xl:hover:scale-110 2xl:hover:cursor-none'/></a>
             </div>
 
-            <a href="Sameer-Poswal-Resume.pdf" download>
+            <a href="https://docs.google.com/document/d/1X5eMOd4Jn4zolTgN-wwA2KxnnPu25FRe/edit?usp=sharing&ouid=105591030184095501081&rtpof=true&sd=true" target="_blank">
                 <button 
                 className='
                 
