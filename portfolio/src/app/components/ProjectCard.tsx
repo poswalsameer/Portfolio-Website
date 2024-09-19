@@ -11,12 +11,12 @@ function ProjectCard(props: {
   return (
     // border-2 border-[#fefae0]
     <div className='
-    flex flex-row justify-center items-center rounded-xl 
-    sm:flex sm:flex-row sm:justify-center sm:items-center sm:rounded-xl 
-    md:flex md:flex-col md:rounded-xl 
-    lg:flex lg:flex-col lg:rounded-xl 
-    xl:flex xl:flex-col xl:rounded-xl
-    2xl:flex 2xl:flex-col 2xl:rounded-xl  ' >
+    flex flex-row justify-center items-center rounded-xl transition-all ease-in delay-75 hover:translate-x-4
+    sm:flex sm:flex-row sm:justify-center sm:items-center sm:rounded-xl sm:transition-all sm:ease-in sm:delay-75 sm:hover:translate-x-6 
+    md:flex md:flex-col md:rounded-xl md:transition-all md:ease-in md:delay-75 md:hover:-translate-y-4 md:hover:translate-x-0
+    lg:flex lg:flex-col lg:rounded-xl lg:transition-all lg:ease-in lg:delay-75 lg:hover:-translate-y-4
+    xl:flex xl:flex-col xl:rounded-xl xl:transition-all xl:ease-in xl:delay-75 xl:hover:-translate-y-4
+    2xl:flex 2xl:flex-col 2xl:rounded-xl 2xl:transition-all 2xl:ease-in 2xl:delay-75 2xl:hover:-translate-y-4 ' >
 
         <div>
           <img src={props.projectImage} alt="" 

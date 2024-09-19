@@ -13,19 +13,6 @@ const texts = ['Software', 'Frontend', 'Game'];
 
 function Hero() {
 
-    // const [index, setIndex] = useState(0);
-    // useEffect(() => {
-    //     const intervalId = setInterval(() => setIndex((index) => index+1), 1800);
-    //     return () => clearTimeout(intervalId);
-    // }, [])
-
-                            
-    {/* <TextTransition springConfig={presets.wobbly}>
-        {texts[index % texts.length]}
-    </TextTransition> */}
-
-
-
   return (
 
     <>
@@ -53,20 +40,20 @@ function Hero() {
         </h1>
 
         <div className='
-            flex flex-row justify-center items-center text-3xl text-[#c3a995] font-semibold my-3
+            flex flex-row justify-center items-center text-2xl text-[#c3a995] font-semibold my-3
             sm:flex sm:flex-row sm:justify-center sm:items-center sm:text-4xl sm:text-[#c3a995] sm:font-semibold sm:my-3
-            md:flex md:flex-row md:justify-center md:items-center md:text-5xl md:text-[#c3a995] md:font-semibold md:my-4             
+            md:flex md:flex-row md:justify-center md:items-center md:text-4xl md:text-[#c3a995] md:font-semibold md:my-4             
             lg:flex lg:flex-row lg:justify-center lg:items-center lg:text-5xl lg:text-[#c3a995] lg:font-semibold lg:my-4 
             xl:flex xl:flex-row xl:justify-center xl:items-center xl:text-5xl xl:text-[#c3a995] xl:font-semibold xl:my-4            
             2xl:flex 2xl:flex-row 2xl:justify-center 2xl:items-center 2xl:text-5xl 2xl:text-[#c3a995] 2xl:font-semibold 2xl:my-4' >
 
                 <div className='
-                p-1 px-1 w-36 flex justify-start items-center
-                sm:p-2 sm:px-1 sm:w-44 sm:flex sm:justify-start sm:items-center
-                md:p-2 md:px-1 md:w-60 md:flex md:justify-start md:items-center                
-                lg:p-2 lg:px-1 lg:w-60 lg:flex lg:justify-start lg:items-center
-                xl:p-2 xl:px-1 xl:w-6 xl:flex xl:justify-start xl:items-center                
-                2xl:p-2 2xl:px-1 2xl:w-72 2xl:flex 2xl:justify-end 2xl:items-center '>
+                px-0 w-36 flex justify-end items-center
+                sm:px-0 sm:w-56 sm:flex sm:justify-end sm:items-center
+                md:px-0 md:w-60 md:flex md:justify-end md:items-center                
+                lg:px-1 lg:w-72 lg:flex lg:justify-end lg:items-center
+                xl:px-1 xl:w-72 xl:flex xl:justify-end xl:items-center                
+                2xl:px-1 2xl:w-72 2xl:flex 2xl:justify-end 2xl:items-center '>
 
                     <h1 className='
                     text-[#c3a995]                    
@@ -89,12 +76,12 @@ function Hero() {
                 </div>
 
                 <div className='
-                    p-1 px-1 w-40 flex justify-start items-center
-                    sm:p-2 sm:px-1 sm:w-44 sm:flex sm:justify-start sm:items-center
-                    md:p-2 md:px-1 md:w-60 md:flex md:justify-start md:items-center
-                    lg:p-2 lg:px-1 lg:w-60 lg:flex lg:justify-start lg:items-center
-                    xl:p-2 xl:px-1 xl:w-60 xl:flex xl:justify-start xl:items-center
-                    2xl:p-2 2xl:px-1 2xl:w-72 2xl:flex 2xl:justify-start 2xl:items-center '> 
+                    px-1 w-40 flex justify-start items-center
+                    sm:px-1 sm:w-56 sm:flex sm:justify-start sm:items-center
+                    md:px-1 md:w-60 md:flex md:justify-start md:items-center
+                    lg:px-1 lg:w-72 lg:flex lg:justify-start lg:items-center
+                    xl:px-1 xl:w-72 xl:flex xl:justify-start xl:items-center
+                    2xl:px-1 2xl:w-72 2xl:flex 2xl:justify-start 2xl:items-center '> 
                     <h1 className=''>
                         Developer
                     </h1>
@@ -111,43 +98,43 @@ function Hero() {
                 2xl:flex 2xl:flex-row 2xl:my-4 ' >
 
                 <a href="https://github.com/poswalsameer" target="_blank"><img src="github.png" alt="" className='
-                    bg-[#f0e2d3] p-2 rounded-lg h-10 w-10 border-2 border-[#f0e2d3] transition-all ease-in delay-75 hover:scale-110 hover:cursor-none mx-2
-                    sm:bg-[#f0e2d3] sm:p-2 sm:rounded-lg sm:h-10 sm:w-10 sm:border-2 sm:border-[#f0e2d3] sm:transition-all sm:ease-in sm:delay-75 sm:hover:scale-110 sm:hover:cursor-none sm:mx-3
-                    md:bg-[#f0e2d3] md:p-2 md:rounded-lg md:h-12 md:w-12 md:border-2 md:border-[#f0e2d3] md:transition-all md:ease-in md:delay-75 md:hover:scale-110 md:hover:cursor-none md:mx-4
-                    lg:bg-[#f0e2d3] lg:p-2 lg:rounded-lg lg:h-12 lg:w-12 lg:border-2 lg:border-[#f0e2d3] lg:transition-all lg:ease-in lg:delay-75 lg:hover:scale-110 lg:hover:cursor-none lg:mx-4
-                    xl:bg-[#f0e2d3] xl:p-2 xl:rounded-lg xl:h-12 xl:w-12 xl:border-2 xl:border-[#f0e2d3] xl:transition-all xl:ease-in xl:delay-75 xl:hover:scale-110 xl:hover:cursor-none xl:mx-4
-                    2xl:bg-[#f0e2d3] 2xl:p-2 2xl:rounded-lg 2xl:h-12 2xl:w-12 2xl:border-2 2xl:border-[#f0e2d3] 2xl:transition-all 2xl:ease-in 2xl:delay-75 2xl:hover:scale-110 2xl:hover:cursor-none 2xl:mx-4 '/></a> 
+                    bg-[#f0e2d3] p-2 rounded-md h-10 w-10 border-2 border-[#f0e2d3] transition-all ease-in delay-75 hover:scale-110 hover:cursor-none mx-1
+                    sm:bg-[#f0e2d3] sm:p-2 sm:rounded-md sm:h-10 sm:w-10 sm:border-2 sm:border-[#f0e2d3] sm:transition-all sm:ease-in sm:delay-75 sm:hover:scale-110 sm:hover:cursor-none sm:mx-2
+                    md:bg-[#f0e2d3] md:p-2 md:rounded-md md:h-12 md:w-12 md:border-2 md:border-[#f0e2d3] md:transition-all md:ease-in md:delay-75 md:hover:scale-110 md:hover:cursor-none md:mx-3
+                    lg:bg-[#f0e2d3] lg:p-2 lg:rounded-lg lg:h-12 lg:w-12 lg:border-2 lg:border-[#f0e2d3] lg:transition-all lg:ease-in lg:delay-75 lg:hover:scale-110 lg:hover:cursor-none lg:mx-3
+                    xl:bg-[#f0e2d3] xl:p-2 xl:rounded-lg xl:h-12 xl:w-12 xl:border-2 xl:border-[#f0e2d3] xl:transition-all xl:ease-in xl:delay-75 xl:hover:scale-110 xl:hover:cursor-none xl:mx-3
+                    2xl:bg-[#f0e2d3] 2xl:p-2 2xl:rounded-lg 2xl:h-12 2xl:w-12 2xl:border-2 2xl:border-[#f0e2d3] 2xl:transition-all 2xl:ease-in 2xl:delay-75 2xl:hover:scale-110 2xl:hover:cursor-none 2xl:mx-3 '/></a> 
 
                 <a href="https://leetcode.com/poswalsameer/" target="_blank"><img src="leetcode.png" alt="" className='
-                    bg-[#f0e2d3] p-2 rounded-lg h-10 w-10 border-2 border-[#f0e2d3] transition-all ease-in delay-75 hover:scale-110 hover:cursor-none mx-2
-                    sm:bg-[#f0e2d3] sm:p-2 sm:rounded-lg sm:h-10 sm:w-10 sm:border-2 sm:border-[#f0e2d3] sm:transition-all sm:ease-in sm:delay-75 sm:hover:scale-110 sm:hover:cursor-none sm:mx-3
-                    md:bg-[#f0e2d3] md:p-2 md:rounded-lg md:h-12 md:w-12 md:border-2 md:border-[#f0e2d3] md:transition-all md:ease-in md:delay-75 md:hover:scale-110 md:hover:cursor-none md:mx-4
-                    lg:bg-[#f0e2d3] lg:p-2 lg:rounded-lg lg:h-12 lg:w-12 lg:border-2 lg:border-[#f0e2d3] lg:transition-all lg:ease-in lg:delay-75 lg:hover:scale-110 lg:hover:cursor-none lg:mx-4
-                    xl:bg-[#f0e2d3] xl:p-2 xl:rounded-lg xl:h-12 xl:w-12 xl:border-2 xl:border-[#f0e2d3] xl:transition-all xl:ease-in xl:delay-75 xl:hover:scale-110 xl:hover:cursor-none xl:mx-4
-                    2xl:bg-[#f0e2d3] 2xl:p-2 2xl:rounded-lg 2xl:h-12 2xl:w-12 2xl:border-2 2xl:border-[#f0e2d3] 2xl:mx-4 2xl:transition-all 2xl:ease-in 2xl:hover:scale-110 2xl:hover:cursor-none'/></a>
+                    bg-[#f0e2d3] p-2 rounded-md h-10 w-10 border-2 border-[#f0e2d3] transition-all ease-in delay-75 hover:scale-110 hover:cursor-none mx-1
+                    sm:bg-[#f0e2d3] sm:p-2 sm:rounded-md sm:h-10 sm:w-10 sm:border-2 sm:border-[#f0e2d3] sm:transition-all sm:ease-in sm:delay-75 sm:hover:scale-110 sm:hover:cursor-none sm:mx-2
+                    md:bg-[#f0e2d3] md:p-2 md:rounded-md md:h-12 md:w-12 md:border-2 md:border-[#f0e2d3] md:transition-all md:ease-in md:delay-75 md:hover:scale-110 md:hover:cursor-none md:mx-3
+                    lg:bg-[#f0e2d3] lg:p-2 lg:rounded-lg lg:h-12 lg:w-12 lg:border-2 lg:border-[#f0e2d3] lg:transition-all lg:ease-in lg:delay-75 lg:hover:scale-110 lg:hover:cursor-none lg:mx-3
+                    xl:bg-[#f0e2d3] xl:p-2 xl:rounded-lg xl:h-12 xl:w-12 xl:border-2 xl:border-[#f0e2d3] xl:transition-all xl:ease-in xl:delay-75 xl:hover:scale-110 xl:hover:cursor-none xl:mx-3
+                    2xl:bg-[#f0e2d3] 2xl:p-2 2xl:rounded-lg 2xl:h-12 2xl:w-12 2xl:border-2 2xl:border-[#f0e2d3] 2xl:mx-3 2xl:transition-all 2xl:ease-in 2xl:hover:scale-110 2xl:hover:cursor-none'/></a>
 
                 <a href="https://twitter.com/sameerposwal03" target="_blank"><img src="twitter.png" alt="" className='
-                    bg-[#f0e2d3] p-2 rounded-lg h-10 w-10 border-2 border-[#f0e2d3] transition-all ease-in delay-75 hover:scale-110 hover:cursor-none mx-2
-                    sm:bg-[#f0e2d3] sm:p-2 sm:rounded-lg sm:h-10 sm:w-10 sm:border-2 sm:border-[#f0e2d3] sm:transition-all sm:ease-in sm:delay-75 sm:hover:scale-110 sm:hover:cursor-none sm:mx-3
-                    md:bg-[#f0e2d3] md:p-2 md:rounded-lg md:h-12 md:w-12 md:border-2 md:border-[#f0e2d3] md:transition-all md:ease-in md:delay-75 md:hover:scale-110 md:hover:cursor-none md:mx-4
-                    lg:bg-[#f0e2d3] lg:p-2 lg:rounded-lg lg:h-12 lg:w-12 lg:border-2 lg:border-[#f0e2d3] lg:transition-all lg:ease-in lg:delay-75 lg:hover:scale-110 lg:hover:cursor-none lg:mx-4
-                    xl:bg-[#f0e2d3] xl:p-2 xl:rounded-lg xl:h-12 xl:w-12 xl:border-2 xl:border-[#f0e2d3] xl:transition-all xl:ease-in xl:delay-75 xl:hover:scale-110 xl:hover:cursor-none xl:mx-4
-                    2xl:bg-[#f0e2d3] 2xl:p-2 2xl:rounded-lg 2xl:h-12 2xl:w-12 2xl:border-2 2xl:border-[#f0e2d3] 2xl:transition-all 2xl:ease-in 2xl:hover:scale-110 2xl:hover:cursor-none 2xl:mx-4'/></a>
+                    bg-[#f0e2d3] p-2 rounded-md h-10 w-10 border-2 border-[#f0e2d3] transition-all ease-in delay-75 hover:scale-110 hover:cursor-none mx-1
+                    sm:bg-[#f0e2d3] sm:p-2 sm:rounded-md sm:h-10 sm:w-10 sm:border-2 sm:border-[#f0e2d3] sm:transition-all sm:ease-in sm:delay-75 sm:hover:scale-110 sm:hover:cursor-none sm:mx-2
+                    md:bg-[#f0e2d3] md:p-2 md:rounded-md md:h-12 md:w-12 md:border-2 md:border-[#f0e2d3] md:transition-all md:ease-in md:delay-75 md:hover:scale-110 md:hover:cursor-none md:mx-3
+                    lg:bg-[#f0e2d3] lg:p-2 lg:rounded-lg lg:h-12 lg:w-12 lg:border-2 lg:border-[#f0e2d3] lg:transition-all lg:ease-in lg:delay-75 lg:hover:scale-110 lg:hover:cursor-none lg:mx-3
+                    xl:bg-[#f0e2d3] xl:p-2 xl:rounded-lg xl:h-12 xl:w-12 xl:border-2 xl:border-[#f0e2d3] xl:transition-all xl:ease-in xl:delay-75 xl:hover:scale-110 xl:hover:cursor-none xl:mx-3
+                    2xl:bg-[#f0e2d3] 2xl:p-2 2xl:rounded-lg 2xl:h-12 2xl:w-12 2xl:border-2 2xl:border-[#f0e2d3] 2xl:transition-all 2xl:ease-in 2xl:hover:scale-110 2xl:hover:cursor-none 2xl:mx-3'/></a>
 
                 <a href="https://www.linkedin.com/in/sameerposwal/" target="_blank"><img src="linkedin.png" alt="" className='
-                    bg-[#f0e2d3] p-2 rounded-lg h-10 w-10 border-2 border-[#f0e2d3] transition-all ease-in delay-75 hover:scale-110 hover:cursor-none mx-2
-                    sm:bg-[#f0e2d3] sm:p-2 sm:rounded-lg sm:h-10 sm:w-10 sm:border-2 sm:border-[#f0e2d3] sm:transition-all sm:ease-in sm:delay-75 sm:hover:scale-110 sm:hover:cursor-none sm:mx-3
-                    md:bg-[#f0e2d3] md:p-2 md:rounded-lg md:h-12 md:w-12 md:border-2 md:border-[#f0e2d3] md:transition-all md:ease-in md:delay-75 md:hover:scale-110 md:hover:cursor-none md:mx-4
-                    lg:bg-[#f0e2d3] lg:p-2 lg:rounded-lg lg:h-12 lg:w-12 lg:border-2 lg:border-[#f0e2d3] lg:transition-all lg:ease-in lg:delay-75 lg:hover:scale-110 lg:hover:cursor-none lg:mx-4
-                    xl:bg-[#f0e2d3] xl:p-2 xl:rounded-lg xl:h-12 xl:w-12 xl:border-2 xl:border-[#f0e2d3] xl:transition-all xl:ease-in xl:delay-75 xl:hover:scale-110 xl:hover:cursor-none xl:mx-4
-                    2xl:bg-[#f0e2d3] 2xl:p-2 2xl:rounded-lg 2xl:h-12 2xl:w-12 2xl:border-2 2xl:border-[#f0e2d3] 2xl:mx-4 2xl:transition-all 2xl:ease-in 2xl:hover:scale-110 2xl:hover:cursor-none'/></a>
+                    bg-[#f0e2d3] p-2 rounded-md h-10 w-10 border-2 border-[#f0e2d3] transition-all ease-in delay-75 hover:scale-110 hover:cursor-none mx-1
+                    sm:bg-[#f0e2d3] sm:p-2 sm:rounded-md sm:h-10 sm:w-10 sm:border-2 sm:border-[#f0e2d3] sm:transition-all sm:ease-in sm:delay-75 sm:hover:scale-110 sm:hover:cursor-none sm:mx-2
+                    md:bg-[#f0e2d3] md:p-2 md:rounded-md md:h-12 md:w-12 md:border-2 md:border-[#f0e2d3] md:transition-all md:ease-in md:delay-75 md:hover:scale-110 md:hover:cursor-none md:mx-3
+                    lg:bg-[#f0e2d3] lg:p-2 lg:rounded-lg lg:h-12 lg:w-12 lg:border-2 lg:border-[#f0e2d3] lg:transition-all lg:ease-in lg:delay-75 lg:hover:scale-110 lg:hover:cursor-none lg:mx-3
+                    xl:bg-[#f0e2d3] xl:p-2 xl:rounded-lg xl:h-12 xl:w-12 xl:border-2 xl:border-[#f0e2d3] xl:transition-all xl:ease-in xl:delay-75 xl:hover:scale-110 xl:hover:cursor-none xl:mx-3
+                    2xl:bg-[#f0e2d3] 2xl:p-2 2xl:rounded-lg 2xl:h-12 2xl:w-12 2xl:border-2 2xl:border-[#f0e2d3] 2xl:mx-3 2xl:transition-all 2xl:ease-in 2xl:hover:scale-110 2xl:hover:cursor-none'/></a>
             </div>
 
             <a href="Sameer-Poswal-Resume.pdf" download>
                 <button 
                 className='
                 
-                h-10 w-36 flex flex-row justify-center items-center font-bold text-lg text-black bg-[#c3a995] rounded-lg transition-all ease-in hover:bg-[#f0e2d3] hover:text-black hover:border-2 hover:border-[#fefae0] hover:cursor-none my-3
+                h-10 w-36 flex flex-row justify-center items-center font-bold text-lg text-black bg-[#c3a995] rounded-md transition-all ease-in hover:bg-[#f0e2d3] hover:text-black hover:border-2 hover:border-[#fefae0] hover:cursor-none my-3
                 sm:h-12 sm:w-40 sm:flex sm:flex-row sm:justify-center sm:items-center sm:font-bold sm:text-lg sm:text-black sm:bg-[#c3a995] sm:rounded-lg sm:transition-all sm:ease-in sm:hover:bg-[#f0e2d3] sm:hover:text-black sm:hover:border-2 sm:hover:border-[#fefae0] sm:hover:cursor-none sm:my-3
                 md:h-12 md:w-40 md:flex md:flex-row md:justify-center md:items-center md:font-bold md:text-lg md:text-black md:bg-[#c3a995] md:rounded-lg md:transition-all md:ease-in md:hover:bg-[#f0e2d3] md:hover:text-black md:hover:border-2 md:hover:border-[#fefae0] md:hover:cursor-none md:my-4
                 lg:h-12 lg:w-40 lg:flex lg:flex-row lg:justify-center lg:items-center lg:font-bold lg:text-lg lg:text-black lg:bg-[#c3a995] lg:rounded-lg lg:transition-all lg:ease-in lg:hover:bg-[#f0e2d3] lg:hover:text-black lg:hover:border-2 lg:hover:border-[#fefae0] lg:hover:cursor-none lg:my-4
