@@ -97,7 +97,7 @@ function page() {
             </div>
         </section>
 
-        <section className='w-full  font-poppins'>
+        <section className='w-full font-poppins'>
             <div className='mx-4 my-24'>
             <Project />
             </div>

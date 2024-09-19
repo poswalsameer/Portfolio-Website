@@ -25,7 +25,7 @@ function Profile() {
             <div className='
               p-2 text-center text-xs font-medium h-[50%] w-[100%] mr-3
               sm:p-2 sm:text-center sm:text-sm sm:font-medium sm:h-[50%] sm:w-[100%] sm:mr-3
-              md:p-1 md:text-left md:text-sm md:font-medium md:h-[50%] md:w-[75%] md:mr-3
+              md:p-1 md:text-left md:text-xs md:font-medium md:h-[50%] md:w-[75%] md:mr-3
               lg:p-2 lg:text-left lg:text-base lg:font-medium lg:h-[50%] lg:w-[70%] lg:mr-7
               xl:p-2 xl:text-left xl:text-base xl:font-medium xl:h-[50%] xl:w-[70%] xl:mr-7
               2xl:p-2 2xl:text-left 2xl:text-base 2xl:font-medium 2xl:h-[60%] 2xl:w-[70%] 2xl:mr-7'

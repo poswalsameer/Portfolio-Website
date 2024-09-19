@@ -29,7 +29,7 @@ function Skills() {
                 <div className='
                 flex flex-col justify-center items-center h-[8.5rem] w-[95%] border-2 border-[#faf5f0] border-opacity-40 mx-14 rounded-md
                 sm:flex sm:flex-col sm:justify-center sm:items-center sm:h-40 sm:w-[93%] sm:border-2 sm:border-[#faf5f0] sm:border-opacity-40 sm:mx-10 sm:rounded-lg
-                md:flex md:flex-col md:justify-center md:items-center md:h-56 md:w-[90%] md:border-2 md:border-[#faf5f0] md:border-opacity-40 md:mx-10 md:rounded-xl
+                md:flex md:flex-col md:justify-center md:items-center md:h-56 md:w-[95%] md:border-2 md:border-[#faf5f0] md:border-opacity-40 md:mx-10 md:rounded-xl
                 lg:flex lg:flex-col lg:justify-center lg:items-center lg:h-72 lg:w-[90%] lg:border-2 lg:border-[#faf5f0] lg:border-opacity-40 lg:mx-10 lg:rounded-xl
                 xl:flex xl:flex-col xl:justify-center xl:items-center xl:h-72 xl:w-[90%] xl:border-2 xl:border-[#faf5f0] xl:border-opacity-40 xl:mx-10 xl:rounded-xl
                 2xl:flex 2xl:flex-col 2xl:justify-center 2xl:items-center 2xl:h-72 2xl:w-[90%] 2xl:border-2 2xl:border-[#faf5f0] 2xl:border-opacity-40 2xl:mx-10 2xl:rounded-xl'>
@@ -45,12 +45,12 @@ function Skills() {
                     </p>
 
                     <div className='
-                    grid grid-cols-8 gap-x-1
-                    sm:grid sm:grid-cols-6 sm:gap-x-3
-                    md:grid md:grid-cols-4 md:gap-x-3
-                    lg:grid lg:grid-cols-4 lg:gap-x-3
-                    xl:grid xl:grid-cols-4 xl:gap-x-3
-                    2xl:grid 2xl:grid-cols-4 2xl:gap-x-3'>
+                    grid grid-cols-5 gap-x-1
+                    sm:grid sm:grid-cols-5 sm:gap-x-3
+                    md:grid md:grid-cols-5 md:gap-x-3
+                    lg:grid lg:grid-cols-5 lg:gap-x-3
+                    xl:grid xl:grid-cols-5 xl:gap-x-3
+                    2xl:grid 2xl:grid-cols-5 2xl:gap-x-3'>
 
                         <SkillCard image='html.png' />
                         <SkillCard image='css.png' />
@@ -71,7 +71,7 @@ function Skills() {
                 <div className='
                 flex flex-col justify-center items-center h-[8.5rem] w-[95%] border-2 border-[#faf5f0] border-opacity-40 mx-14 rounded-md
                 sm:flex sm:flex-col sm:justify-center sm:items-center sm:h-40 sm:w-[93%] sm:border-2 sm:border-[#faf5f0] sm:border-opacity-40 sm:mx-10 sm:rounded-lg
-                md:flex md:flex-col md:justify-center md:items-center md:h-56 md:w-[90%] md:border-2 md:border-[#faf5f0] md:border-opacity-40 md:mx-10 md:rounded-xl
+                md:flex md:flex-col md:justify-center md:items-center md:h-56 md:w-[95%] md:border-2 md:border-[#faf5f0] md:border-opacity-40 md:mx-10 md:rounded-xl
                 lg:flex lg:flex-col lg:justify-center lg:items-center lg:h-72 lg:w-[90%] lg:border-2 lg:border-[#faf5f0] lg:border-opacity-40 lg:mx-10 lg:rounded-xl
                 xl:flex xl:flex-col xl:justify-center xl:items-center xl:h-72 xl:w-[90%] xl:border-2 xl:border-[#faf5f0] xl:border-opacity-40 xl:mx-10 xl:rounded-xl
                 2xl:flex 2xl:flex-col 2xl:justify-center 2xl:items-center 2xl:h-72 2xl:w-[90%] 2xl:border-2 2xl:border-[#faf5f0] 2xl:border-opacity-40 2xl:mx-10 2xl:rounded-xl'>
@@ -87,8 +87,8 @@ function Skills() {
                     </p>
 
                     <div className='
-                    grid grid-cols-6 gap-x-1
-                    sm:grid sm:grid-cols-6 sm:gap-x-3
+                    grid grid-cols-4 gap-x-1
+                    sm:grid sm:grid-cols-4 sm:gap-x-3
                     md:grid md:grid-cols-4 md:gap-x-3
                     lg:grid lg:grid-cols-4 lg:gap-x-3
                     xl:grid xl:grid-cols-4 xl:gap-x-3
@@ -101,6 +101,8 @@ function Skills() {
                         <SkillCard image='mongo.png' />
                         <SkillCard image='sql.png' />
                         <SkillCard image='appwrite.png' />
+                        <SkillCard image='socketio.png' />
+                        
 
                     </div>
 
@@ -111,7 +113,7 @@ function Skills() {
                 <div className='
                 flex flex-col justify-center items-center h-[8.5rem] w-[95%] border-2 border-[#faf5f0] border-opacity-40 mx-14 rounded-md
                 sm:flex sm:flex-col sm:justify-center sm:items-center sm:h-40 sm:w-[93%] sm:border-2 sm:border-[#faf5f0] sm:border-opacity-40 sm:mx-10 sm:rounded-lg
-                md:flex md:flex-col md:justify-center md:items-center md:h-56 md:w-[90%] md:border-2 md:border-[#faf5f0] md:border-opacity-40 md:mx-10 md:rounded-xl
+                md:flex md:flex-col md:justify-center md:items-center md:h-56 md:w-[95%] md:border-2 md:border-[#faf5f0] md:border-opacity-40 md:mx-10 md:rounded-xl
                 lg:flex lg:flex-col lg:justify-center lg:items-center lg:h-72 lg:w-[90%] lg:border-2 lg:border-[#faf5f0] lg:border-opacity-40 lg:mx-10 lg:rounded-xl
                 xl:flex xl:flex-col xl:justify-center xl:items-center xl:h-72 xl:w-[90%] xl:border-2 xl:border-[#faf5f0] xl:border-opacity-40 xl:mx-10 xl:rounded-xl
                 2xl:flex 2xl:flex-col 2xl:justify-center 2xl:items-center 2xl:h-72 2xl:w-[90%] 2xl:border-2 2xl:border-[#faf5f0] 2xl:border-opacity-40 2xl:mx-10 2xl:rounded-xl'>
@@ -129,10 +131,10 @@ function Skills() {
                     <div className='
                     grid grid-cols-6 gap-x-1
                     sm:grid sm:grid-cols-6 sm:gap-x-3
-                    md:grid md:grid-cols-4 md:gap-x-3
-                    lg:grid lg:grid-cols-4 lg:gap-x-3
-                    xl:grid xl:grid-cols-4 xl:gap-x-3
-                    2xl:grid 2xl:grid-cols-4 2xl:gap-x-3 '>
+                    md:grid md:grid-cols-3 md:gap-x-3
+                    lg:grid lg:grid-cols-3 lg:gap-x-3
+                    xl:grid xl:grid-cols-3 xl:gap-x-3
+                    2xl:grid 2xl:grid-cols-3 2xl:gap-x-3 '>
 
                         <SkillCard image='cpp.png' />
                         <SkillCard image='javascript.png' />
@@ -150,7 +152,7 @@ function Skills() {
                 <div className='
                 flex flex-col justify-center items-center h-[8.5rem] w-[95%] border-2 border-[#faf5f0] border-opacity-40 mx-14 rounded-md
                 sm:flex sm:flex-col sm:justify-center sm:items-center sm:h-40 sm:w-[93%] sm:border-2 sm:border-[#faf5f0] sm:border-opacity-40 sm:mx-10 sm:rounded-lg
-                md:flex md:flex-col md:justify-center md:items-center md:h-56 md:w-[90%] md:border-2 md:border-[#faf5f0] md:border-opacity-40 md:mx-10 md:rounded-xl
+                md:flex md:flex-col md:justify-center md:items-center md:h-56 md:w-[95%] md:border-2 md:border-[#faf5f0] md:border-opacity-40 md:mx-10 md:rounded-xl
                 lg:flex lg:flex-col lg:justify-center lg:items-center lg:h-72 lg:w-[90%] lg:border-2 lg:border-[#faf5f0] lg:border-opacity-40 lg:mx-10 lg:rounded-xl
                 xl:flex xl:flex-col xl:justify-center xl:items-center xl:h-72 xl:w-[90%] xl:border-2 xl:border-[#faf5f0] xl:border-opacity-40 xl:mx-10 xl:rounded-xl
                 2xl:flex 2xl:flex-col 2xl:justify-center 2xl:items-center 2xl:h-72 2xl:w-[90%] 2xl:border-2 2xl:border-[#faf5f0] 2xl:border-opacity-40 2xl:mx-10 2xl:rounded-xl'>
@@ -166,16 +168,19 @@ function Skills() {
                     </p>
 
                     <div className='
-                        grid grid-cols-3 gap-x-1
-                        sm:grid sm:grid-cols-3 sm:gap-x-3
-                        md:grid md:grid-cols-2 md:gap-x-3
-                        lg:grid lg:grid-cols-2 lg:gap-x-3
-                        xl:grid xl:grid-cols-2 xl:gap-x-3
-                        2xl:grid 2xl:grid-cols-2 2xl:gap-x-3 '>
+                        grid grid-cols-6 gap-x-1
+                        sm:grid sm:grid-cols-6 sm:gap-x-3
+                        md:grid md:grid-cols-3 md:gap-x-3
+                        lg:grid lg:grid-cols-3 lg:gap-x-3
+                        xl:grid xl:grid-cols-3 xl:gap-x-3
+                        2xl:grid 2xl:grid-cols-3 2xl:gap-x-3 '>
 
                         <SkillCard image='unity.png' />   
                         <SkillCard image='vercel-logo.svg' /> 
-                        <SkillCard image='docker.png' />                
+                        <SkillCard image='docker.png' />
+                        <SkillCard image='netlify.png' />  
+                        <SkillCard image='github.png' />
+                        <SkillCard image='postman.png' />              
 
                     </div>
 

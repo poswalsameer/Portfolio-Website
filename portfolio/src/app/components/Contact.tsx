@@ -38,16 +38,16 @@ function Contact() {
         </div>
 
         <div className='
-        my-5 flex flex-col w-full justify-center items-center
-        sm:my-5 sm:flex sm:flex-col sm:w-full sm:justify-center sm:items-center
-        md:my-5 md:flex md:flex-row md:w-full md:justify-center md:items-center
-        lg:my-5 lg:flex lg:flex-row lg:w-full lg:justify-center lg:items-center
-        xl:my-5 xl:flex xl:flex-row xl:w-full xl:justify-center xl:items-center 
-        2xl:my-5 2xl:flex 2xl:flex-row 2xl:w-full 2xl:justify-center 2xl:items-center '>
+            my-5 flex flex-col w-full justify-center items-center
+            sm:my-5 sm:flex sm:flex-col sm:w-full sm:justify-center sm:items-center
+            md:my-5 md:flex md:flex-row md:w-full md:justify-center md:items-center
+            lg:my-5 lg:flex lg:flex-row lg:w-full lg:justify-center lg:items-center
+            xl:my-5 xl:flex xl:flex-row xl:w-full xl:justify-center xl:items-center 
+            2xl:my-5 2xl:flex 2xl:flex-row 2xl:w-full 2xl:justify-center 2xl:items-center '>
             
             <div className='
             
-            bg-[#faf5f0] text-[#1e1b17] text-xs flex flex-row my-3 p-2 justify-center items-center font-bold w-[50%] rounded-md transition-all ease-in hover:scale-105
+            bg-[#faf5f0] text-[#1e1b17] text-xs flex flex-row my-3 p-2 justify-center items-center font-bold w-[60%] rounded-md transition-all ease-in hover:scale-105
             
             sm:bg-[#faf5f0] sm:text-[#1e1b17] sm:text-sm sm:flex sm:flex-row sm:mr-0 sm:p-2 sm:justify-center sm:items-center sm:font-bold sm:w-[40%] sm:rounded-md sm:transition-all sm:ease-in sm:hover:scale-105
             
@@ -61,8 +61,8 @@ function Contact() {
 
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="mx-3 lucide lucide-phone"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
                 
-                <p className='mx-0 sm:mx-1 md:mx-3 lg:mx-3 xl:mx-3 2xl:mx-3'>
-                    7982108619 
+                <p className='mx-0 sm:mx-1 md:mx-0 lg:mx-3 xl:mx-3 2xl:mx-3'>
+                    +91-7982108619 
                 </p>
             </div>
 
@@ -80,26 +80,21 @@ function Contact() {
 
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className=" mx-3 lucide lucide-mail"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
 
-                <p className='mx-0 sm:mx-1 md:mx-3 lg:mx-3 xl:mx-3 2xl:mx-3'>
+                <p className='mx-0 sm:mx-1 md:mx-1 lg:mx-3 xl:mx-3 2xl:mx-3'>
                     poswalsameer2003@gmail.com
                 </p>
             </div>
 
         </div>
 
-        <div className='mx-5 text-center
-        
-        my-5 flex flex-col justify-center items-center
-
-        sm:my-5 sm:flex sm:flex-col sm:justify-center sm:items-center
-
-        md:my-5 md:flex md:flex-col md:justify-center md:items-center
-
-        lg:my-5 lg:flex lg:flex-col lg:justify-center lg:items-center 
-        
-        xl:my-5 xl:flex xl:flex-col xl:justify-center xl:items-center 
-        
-        2xl:my-5 2xl:flex 2xl:flex-col 2xl:justify-center 2xl:items-center'>
+        <div className='
+            mx-5 text-center
+            my-5 flex flex-col justify-center items-center
+            sm:my-5 sm:flex sm:flex-col sm:justify-center sm:items-center
+            md:my-5 md:flex md:flex-col md:justify-center md:items-center
+            lg:my-5 lg:flex lg:flex-col lg:justify-center lg:items-center 
+            xl:my-5 xl:flex xl:flex-col xl:justify-center xl:items-center 
+            2xl:my-5 2xl:flex 2xl:flex-col 2xl:justify-center 2xl:items-center'>
             <p className='text-xs sm:text-base'>
                 FEEL FREE TO REACH OUT TO ME USING THESE DETAILS OR BY THE SOCIAL LINKS ATTACHED 
             </p>

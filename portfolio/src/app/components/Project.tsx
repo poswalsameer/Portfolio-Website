@@ -34,6 +34,8 @@ function Project() {
         lg:w-[93%] lg:grid lg:grid-cols-3 lg:gap-x-0 lg:gap-y-8
         xl:w-[100%] xl:grid xl:grid-cols-3 xl:gap-x-0 xl:gap-y-8
         2xl:w-[85%] 2xl:grid 2xl:grid-cols-3 2xl:gap-x-0 2xl:gap-y-8'>
+          
+          <ProjectCard projectImage="shortfolioImage.png" projectName="ShortFolio" techUsed="Next.js, TypeScript, Tailwind CSS, Appwrite, React Hook Form" liveLink='https://youtu.be/PB7ZsftjHoU?si=hFuq7Tucc5PaYCV-' github="https://github.com/poswalsameer/shortfolio" /> 
 
           <ProjectCard projectImage="mines-Image.jpeg" projectName="MineRush" techUsed="Next.js, TypeScript, Tailwind CSS, ShadCN" liveLink='https://minerush.vercel.app/' github="https://github.com/poswalsameer/MineRush" /> 
 

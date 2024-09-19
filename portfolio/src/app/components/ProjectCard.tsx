@@ -21,12 +21,12 @@ function ProjectCard(props: {
         <div>
           <img src={props.projectImage} alt="" 
           className='
-          h-28 w-[6rem] rounded-l-lg
-          sm:h-40 sm:w-[10.5rem] sm:rounded-l-xl
-          md:h-64 md:w-[19.5rem] md:rounded-t-xl md:rounded-bl-none md:rounded-br-none
-          lg:h-60 lg:w-[18rem] lg:rounded-t-xl
-          xl:h-72 xl:w-[24rem] xl:rounded-t-xl
-          2xl:h-72 2xl:w-[24rem] 2xl:rounded-t-xl' />
+          h-28 w-[6rem] rounded-l-lg object-cover
+          sm:h-40 sm:w-[10.5rem] sm:rounded-l-xl sm:object-cover
+          md:h-64 md:w-[19.5rem] md:rounded-t-xl md:rounded-bl-none md:rounded-br-none md:object-cover
+          lg:h-60 lg:w-[18rem] lg:rounded-t-xl lg:object-cover
+          xl:h-72 xl:w-[24rem] xl:rounded-t-xl xl:object-cover
+          2xl:h-72 2xl:w-[24rem] 2xl:rounded-t-xl 2xl:object-cover' />
         </div>
         
         <div className='
