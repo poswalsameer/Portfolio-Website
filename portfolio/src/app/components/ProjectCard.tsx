@@ -93,7 +93,6 @@ function ProjectCard(props: {
                   <Github className='
                   h-3 w-3
                   sm:h-5 sm:w-5' />
-
                 </a>
             </div>
 
