@@ -48,7 +48,7 @@ jobs:
         with:
           node-version: "20"
           cache: 'npm'  
-          cache-dependency-path: Portfolio-Website/portfolio/package-lock.json
+          cache-dependency-path: portfolio/package-lock.json
       - name: Setup Pages
         uses: actions/configure-pages@v5
         with:
@@ -68,7 +68,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-
       - name: Install dependencies
-        working-directory: Portfolio-Website/portfolio
+        working-directory: portfolio
         run: |
           if [ "${{ steps.detect-package-manager.outputs.manager }}" == "yarn" ]; then
             yarn install
