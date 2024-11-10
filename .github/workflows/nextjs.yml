@@ -78,10 +78,17 @@ jobs:
       - name: Build with Next.js
         working-directory: portfolio
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
+        - name: Move necessary build files
+        working-directory: portfolio
+        run: |
+          mkdir -p ./out
+          cp -r ./portfolio/.next ./out/.next
+          cp -r ./portfolio/public ./out/public
+          cp ./portfolio/package.json ./out/package.json
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-        with:
-          path: portfolio/out
+        with: 
+          path: ./out
 
   # Deployment job
   deploy:
