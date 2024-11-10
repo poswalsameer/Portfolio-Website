@@ -78,7 +78,7 @@ jobs:
       - name: Build with Next.js
         working-directory: portfolio
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
-        - name: Move necessary build files
+      - name: Move necessary build files
         working-directory: portfolio
         run: |
           mkdir -p ./out
