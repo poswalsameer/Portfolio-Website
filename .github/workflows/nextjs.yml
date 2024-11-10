@@ -67,7 +67,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-
       - name: Install dependencies
-        working-directory: portfolio
+        working-directory: Portfolio-Website/portfolio
         run: |
           if [ "${{ steps.detect-package-manager.outputs.manager }}" == "yarn" ]; then
             yarn install
