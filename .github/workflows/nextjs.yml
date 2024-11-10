@@ -76,6 +76,7 @@ jobs:
             npm ci
           fi
       - name: Build with Next.js
+        working-directory: portfolio
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
